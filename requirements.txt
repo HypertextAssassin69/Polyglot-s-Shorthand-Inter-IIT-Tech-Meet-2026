@@ -1,0 +1,23 @@
+# Polyglot's Shorthand — initial experimentation environment
+#
+# Core numerical / ML
+numpy
+pandas
+scikit-learn
+torch
+
+# Tokenization / NLP
+tokenizers
+transformers
+sentencepiece
+datasets
+regex
+
+# Utilities
+tqdm
+
+# Testing
+pytest
+
+# Optional development / notebooks
+jupyter

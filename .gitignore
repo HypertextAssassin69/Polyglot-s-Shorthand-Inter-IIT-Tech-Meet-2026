@@ -1,0 +1,31 @@
+# Virtual environment
+interIIT/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data
+data/raw/
+data/processed/
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
