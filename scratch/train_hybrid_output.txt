@@ -1,0 +1,67 @@
+Using device: cuda
+
+--- Running Sanity Check ---
+Initial Loss: 2.8124 -> Final Loss (10 iters): 0.0048
+Sanity Check Passed. Gradients are flowing.
+
+--- Starting Full Training ---
+Epoch 1/15 - Train Loss: 1.1678
+[Val] Loss: 0.9231 | Recall@1: 32.76% (2008/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 2/15 - Train Loss: 0.7861
+[Val] Loss: 0.8331 | Recall@1: 34.15% (2093/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 3/15 - Train Loss: 0.6634
+[Val] Loss: 0.7893 | Recall@1: 35.00% (2145/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 4/15 - Train Loss: 0.5721
+[Val] Loss: 0.7645 | Recall@1: 35.18% (2156/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 5/15 - Train Loss: 0.4981
+[Val] Loss: 0.7496 | Recall@1: 35.91% (2201/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 6/15 - Train Loss: 0.4366
+[Val] Loss: 0.7368 | Recall@1: 36.25% (2222/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 7/15 - Train Loss: 0.3790
+[Val] Loss: 0.7518 | Recall@1: 36.14% (2215/6129)
+Epoch 8/15 - Train Loss: 0.3299
+[Val] Loss: 0.7587 | Recall@1: 36.09% (2212/6129)
+Epoch 9/15 - Train Loss: 0.2870
+[Val] Loss: 0.7619 | Recall@1: 36.50% (2237/6129)
+Epoch 10/15 - Train Loss: 0.2446
+[Val] Loss: 0.7852 | Recall@1: 36.43% (2233/6129)
+Epoch 11/15 - Train Loss: 0.2111
+[Val] Loss: 0.8159 | Recall@1: 36.32% (2226/6129)
+Epoch 12/15 - Train Loss: 0.1825
+[Val] Loss: 0.8204 | Recall@1: 36.34% (2227/6129)
+Epoch 13/15 - Train Loss: 0.1553
+[Val] Loss: 0.8598 | Recall@1: 36.48% (2236/6129)
+Epoch 14/15 - Train Loss: 0.1325
+[Val] Loss: 0.8767 | Recall@1: 36.42% (2232/6129)
+Epoch 15/15 - Train Loss: 0.1126
+[Val] Loss: 0.9206 | Recall@1: 36.35% (2228/6129)
+
+--- Final Evaluation on Test Set ---
+[Test] Loss: 0.6987 | Recall@1: 35.69% (2123/5948)
+
+--- Test Set Candidate Stats ---
+Mean Cands: 6.36
+Median Cands: 6
+P95 Cands: 8
+
+--- Detailed Breakdown ---
+Total Errors: 3825
+Retriever Failure Rate (Gold Absent): 53.60% (3188)
+Ranker Failure Rate (Gold Present but Wrong): 10.71% (637)
+Recall@1 given Gold IS in Candidates: 76.92%
+Recall@1 given Gold NOT in Candidates: 0.00%
+
+--- Subset Preservations ---
+Non-Min ED Subset: 593/692 (85.69% if > 0)
+ED Tie Subset: 1480/1905 (77.69% if > 0)
+Minimal Pair Subset: 46/49 (93.88% if > 0)
+
+Inference Latency: 0.12 ms/word
+
+Predictions saved to C:/Users/hiaar/.gemini/antigravity/brain/2b8c0d59-79d1-442a-98a8-9a8f70fc8e10/scratch/hybrid_predictions.jsonl

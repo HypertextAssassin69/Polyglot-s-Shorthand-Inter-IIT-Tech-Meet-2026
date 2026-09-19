@@ -1,0 +1,26 @@
+Loading data and splitting 80/10/10...
+Building Phonetic Index...
+Building Ngram Index...
+[NgramIndex] Indexed 23408 words in 0.038s
+Extracting Test Queries...
+Total Test Queries (noisy->gold pairs): 6029
+Benchmarking latency on 1000 unique queries...
+[Strict Phonetic] Completed in 0.01s
+[Chat Dict] Completed in 0.00s
+[Indexed Retrieval (M=100)] Completed in 0.18s
+[Indexed Retrieval (M=500)] Completed in 0.48s
+[Indexed Retrieval (M=1000)] Completed in 0.83s
+[Full O(N) Weighted] Completed in 13.99s
+Evaluating recall on ALL test queries...
+  Strict Phonetic: R@5=9.16%, Latency=0.01ms
+  Full Weighted: R@5=35.94%, Latency=13.99ms
+  Chat Dict: R@5=7.02%, Latency=0.00ms
+  Hybrid Union (Baseline): R@5=34.14%, Latency=14.00ms
+  Indexed Retrieval (M=100): R@5=36.18%, Latency=0.18ms
+  Indexed Retrieval (M=500): R@5=33.97%, Latency=0.48ms
+  Indexed Retrieval (M=1000): R@5=37.14%, Latency=0.83ms
+  Indexed + Hybrid Union (M=100): R@5=37.20%, Latency=0.19ms
+  Indexed + Hybrid Union (M=500): R@5=33.31%, Latency=0.49ms
+  Indexed + Hybrid Union (M=1000): R@5=36.18%, Latency=0.85ms
+
+Benchmarking complete! Results saved to scratch/retrieval_benchmark.json

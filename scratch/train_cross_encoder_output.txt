@@ -1,0 +1,76 @@
+Using device: cuda
+
+Total Params: 17,228,033
+
+--- Running Sanity Check ---
+CrossEncoder Scorer weight diff: 18.923782
+Initial Loss: 1.8672 -> Final Loss (10 iters): 1.6633
+Sanity Check Passed. Gradients are flowing.
+
+--- Starting Full Training ---
+Epoch 1/15 - Train Loss: 1.6119
+[Val] Loss: 1.5090 | Recall@1: 16.54% (1014/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 2/15 - Train Loss: 1.4491
+[Val] Loss: 1.4532 | Recall@1: 17.80% (1091/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 3/15 - Train Loss: 1.3845
+[Val] Loss: 1.4139 | Recall@1: 18.96% (1162/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 4/15 - Train Loss: 1.3274
+[Val] Loss: 1.3813 | Recall@1: 19.91% (1220/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 5/15 - Train Loss: 1.2849
+[Val] Loss: 1.3717 | Recall@1: 20.44% (1253/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 6/15 - Train Loss: 1.2470
+[Val] Loss: 1.3816 | Recall@1: 20.49% (1256/6129)
+Epoch 7/15 - Train Loss: 1.2145
+[Val] Loss: 1.3524 | Recall@1: 21.19% (1299/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 8/15 - Train Loss: 1.1727
+[Val] Loss: 1.3445 | Recall@1: 21.72% (1331/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 9/15 - Train Loss: 1.1512
+[Val] Loss: 1.3341 | Recall@1: 21.99% (1348/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 10/15 - Train Loss: 1.1148
+[Val] Loss: 1.3247 | Recall@1: 22.91% (1404/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 11/15 - Train Loss: 1.0885
+[Val] Loss: 1.3026 | Recall@1: 23.28% (1427/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 12/15 - Train Loss: 1.0629
+[Val] Loss: 1.2618 | Recall@1: 24.05% (1474/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 13/15 - Train Loss: 1.0379
+[Val] Loss: 1.2570 | Recall@1: 23.90% (1465/6129)
+  * Best validation loss achieved. Model saved.
+Epoch 14/15 - Train Loss: 1.0172
+[Val] Loss: 1.2580 | Recall@1: 24.42% (1497/6129)
+Epoch 15/15 - Train Loss: 0.9938
+[Val] Loss: 1.3170 | Recall@1: 23.90% (1465/6129)
+
+--- Final Evaluation on Test Set ---
+[Test] Loss: 1.2518 | Recall@1: 23.37% (1390/5948)
+
+--- Test Set Candidate Stats ---
+Mean Cands: 6.36
+Median Cands: 6
+P95 Cands: 8
+
+--- Detailed Breakdown ---
+Total Errors: 4558
+Retriever Failure Rate (Gold Absent): 53.60% (3188)
+Ranker Failure Rate (Gold Present but Wrong): 23.03% (1370)
+Recall@1 given Gold IS in Candidates: 50.36%
+Recall@1 given Gold NOT in Candidates: 0.00%
+
+--- Subset Preservations ---
+Non-Min ED Subset: 501/692 (72.40% if > 0)
+ED Tie Subset: 856/1905 (44.93% if > 0)
+Minimal Pair Subset: 30/49 (61.22% if > 0)
+
+Inference Latency: 0.09 ms/word
+
+Predictions saved to C:/Users/hiaar/.gemini/antigravity/brain/2b8c0d59-79d1-442a-98a8-9a8f70fc8e10/scratch/cross_encoder_predictions.jsonl

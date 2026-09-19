@@ -1,0 +1,85 @@
+--- SUCCESSFUL EXAMPLES ---
+Noisy: pr         Gold: par        | Ph: ('p', 'a', 'r')
+Noisy: ap         Gold: aap        | Ph: ('AA', 'p')
+Noisy: krna       Gold: karna      | Ph: ('k', 'a', 'r', 'n', 'a')
+Noisy: wale       Gold: waale      | Ph: ('w', 'AA', 'l', 'e')
+Noisy: krne       Gold: karne      | Ph: ('k', 'a', 'r', 'n', 'e')
+Noisy: skte       Gold: sakte      | Ph: ('s', 'a', 'k', 't', 'e')
+Noisy: thik       Gold: theek      | Ph: ('TH', 'EE', 'k')
+Noisy: gyi        Gold: gayi       | Ph: ('g', 'a', 'y', 'i')
+Noisy: karen      Gold: karein     | Ph: ('k', 'a', 'r', 'AI', 'n')
+Noisy: kbhi       Gold: kabhi      | Ph: ('k', 'a', 'BH', 'i')
+Noisy: mtlb       Gold: matlab     | Ph: ('m', 'a', 't', 'l', 'a', 'b')
+Noisy: sbhi       Gold: sabhi      | Ph: ('s', 'a', 'BH', 'i')
+Noisy: jankari    Gold: jaankari   | Ph: ('j', 'AA', 'n', 'k', 'a', 'r', 'i')
+Noisy: mante      Gold: maante     | Ph: ('m', 'AA', 'n', 't', 'e')
+Noisy: bnati      Gold: banati     | Ph: ('b', 'a', 'n', 'a', 't', 'i')
+
+--- FAILED EXAMPLES ---
+Noisy: hai        Gold: hain       | Gold Ph: ('h', 'AI', 'n') | Sample Path: ('h', 'AI')
+Noisy: k          Gold: ke         | Gold Ph: ('k', 'e') | Sample Path: ('k',)
+Noisy: hu         Gold: hun        | Gold Ph: ('h', 'u', 'n') | Sample Path: ('h', 'u')
+Noisy: per        Gold: par        | Gold Ph: ('p', 'a', 'r') | Sample Path: ('p', 'AI', 'r')
+Noisy: is         Gold: es         | Gold Ph: ('e', 's') | Sample Path: ('EE', 's')
+Noisy: ke         Gold: ki         | Gold Ph: ('k', 'i') | Sample Path: ('k', 'AI')
+Noisy: he         Gold: hi         | Gold Ph: ('h', 'i') | Sample Path: ('h', 'e')
+Noisy: he         Gold: hain       | Gold Ph: ('h', 'AI', 'n') | Sample Path: ('h', 'e')
+Noisy: plzzz      Gold: please     | Gold Ph: ('p', 'l', 'e', 'a', 's', 'e') | Sample Path: ('p', 'a', 'l', 'a', 'z', 'AA', 'z', 'z')
+Noisy: bohot      Gold: bahot      | Gold Ph: ('b', 'a', 'h', 'o', 't') | Sample Path: ('b', 'o', 'h', 'o', 't')
+Noisy: karu       Gold: karun      | Gold Ph: ('k', 'a', 'r', 'u', 'n') | Sample Path: ('k', 'a', 'r', 'OO')
+Noisy: kaha       Gold: kahaan     | Gold Ph: ('k', 'a', 'h', 'AA', 'n') | Sample Path: ('k', 'AA', 'h', 'AA')
+Noisy: jada       Gold: jyada      | Gold Ph: ('j', 'y', 'a', 'd', 'a') | Sample Path: ('j', 'a', 'd', 'a')
+Noisy: kyuki      Gold: kyunki     | Gold Ph: ('k', 'y', 'u', 'n', 'k', 'i') | Sample Path: ('k', 'a', 'y', 'u', 'k', 'i')
+Noisy: n          Gold: and        | Gold Ph: ('a', 'n', 'd') | Sample Path: ()
+
+--- CHAT FORMS BREAKDOWN (Total: 4643) ---
+छट
+कमल
+वकस
+सरलत
+दजय
+गठय
+सपरम
+मनन
+24000
+xai32u
+धमल
+1955
+msp
+वट
+हसरफ
+कमई
+हइएसट
+रखत
+4805
+नकलत
+hat39s
+20
+सटलइट
+एड
+सनव
+pkr
+5year
+gdp
+सकरल
+चन
+आसपस
+jbt
+लगतर
+गरम
+dts
+dlf
+सफर
+13k
+se1kg
+5h9de
+तय
+bpl
+86k
+5rs
+vn
+mynd
+लगभग
+शकव
+न
+10x

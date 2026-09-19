@@ -1,0 +1,739 @@
+[
+  {
+    "raw_sentence": "Bharat ji, aap sindhi ho na! Aapko ek shabd se mujhe pata chala, jaante ho &#39;kami peshi&#39; M i correct",
+    "noisy_word": "m",
+    "target_word": "am",
+    "prediction": "me",
+    "is_noisy": true,
+    "input_text": "normalize: Bharat ji, aap sindhi ho na! Aapko ek shabd se mujhe pata chala, jaante ho &#39;kami peshi&#39; <n>m</n> i correct",
+    "hybrid_v1_cands": [
+      "ma",
+      "maa",
+      "m",
+      "mein",
+      "aam",
+      "am",
+      "ama"
+    ]
+  },
+  {
+    "raw_sentence": "Sasan and prasasan ke alawa yak yak aur sansthan nyaypalika hai case court me chal raha tha prasasan kya kare koi bta de",
+    "noisy_word": "prasasan",
+    "target_word": "prashasan",
+    "prediction": "prasasan",
+    "is_noisy": true,
+    "input_text": "normalize: Sasan and <n>prasasan</n> ke alawa yak yak aur sansthan nyaypalika hai case court me chal raha tha prasasan kya kare koi bta de",
+    "hybrid_v1_cands": [
+      "paresaan",
+      "prashasan",
+      "prasann",
+      "presaan",
+      "parsasan"
+    ]
+  },
+  {
+    "raw_sentence": "Narendra Modi Ji Desh Premi Mananiya PM Shri Narendra Modi Ji Ke Ur Se Hamare Pyare Bharat Wasiyon ko Dussehra Vijayadashami ki Bahut Bahut Hardik Badhai Wa Subh Kamnaye Jai shree Ram",
+    "noisy_word": "kamnaye",
+    "target_word": "kamnayein",
+    "prediction": "kamnaye",
+    "is_noisy": true,
+    "input_text": "normalize: Narendra Modi Ji Desh Premi Mananiya PM Shri Narendra Modi Ji Ke Ur Se Hamare Pyare Bharat Wasiyon ko Dussehra Vijayadashami ki Bahut Bahut Hardik Badhai Wa Subh <n>kamnaye</n> Jai shree Ram",
+    "hybrid_v1_cands": [
+      "kamaya",
+      "kamnaye",
+      "kaamnaye",
+      "kamnaaye",
+      "kamaye",
+      "kamane"
+    ]
+  },
+  {
+    "raw_sentence": "En police walon ko turant jail me kyon nahi dala gaya wah vibhag ne farar bhi kar diya",
+    "noisy_word": "wah",
+    "target_word": "woh",
+    "prediction": "waah",
+    "is_noisy": true,
+    "input_text": "normalize: En police walon ko turant jail me kyon nahi dala gaya <n>wah</n> vibhag ne farar bhi kar diya",
+    "hybrid_v1_cands": [
+      "wah",
+      "wahhh",
+      "waha",
+      "wahh",
+      "awah",
+      "waah"
+    ]
+  },
+  {
+    "raw_sentence": "Dad Mein vyakti lagwani chahie Uske alava Ki Ho ya nahin",
+    "noisy_word": "mein",
+    "target_word": "main",
+    "prediction": "mein",
+    "is_noisy": true,
+    "input_text": "normalize: Dad <n>mein</n> vyakti lagwani chahie Uske alava Ki Ho ya nahin",
+    "hybrid_v1_cands": [
+      "main",
+      "men",
+      "maina",
+      "ameen",
+      "mein",
+      "mien",
+      "meen"
+    ]
+  },
+  {
+    "raw_sentence": "Please ban kardo en apps ko pura na bachee lagee rahte hai apni famli ko time nahi deh patee",
+    "noisy_word": "en",
+    "target_word": "in",
+    "prediction": "en",
+    "is_noisy": true,
+    "input_text": "normalize: Please ban kardo <n>en</n> apps ko pura na bachee lagee rahte hai apni famli ko time nahi deh patee",
+    "hybrid_v1_cands": [
+      "en",
+      "an",
+      "in",
+      "aan",
+      "enn",
+      "inn"
+    ]
+  },
+  {
+    "raw_sentence": "Sir ap se acha koi nhi samjha sakta hai thanks so much",
+    "noisy_word": "acha",
+    "target_word": "accha",
+    "prediction": "achha",
+    "is_noisy": true,
+    "input_text": "normalize: Sir ap se <n>acha</n> koi nhi samjha sakta hai thanks so much",
+    "hybrid_v1_cands": [
+      "cha",
+      "accha",
+      "acha",
+      "achaa",
+      "achha",
+      "aacha"
+    ]
+  },
+  {
+    "raw_sentence": "Sir aap ki videos ke karan maine apni life ke 3 hours/day save karne Sikh liye hai Thank you so much",
+    "noisy_word": "hai",
+    "target_word": "hai",
+    "prediction": "hain",
+    "is_noisy": false,
+    "input_text": "normalize: Sir aap ki videos ke karan maine apni life ke 3 hours/day save karne Sikh liye <n>hai</n> Thank you so much",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Copyright strike aane k bad 3 months tak koi video upload nahi karni hati kya? Ya sirf 3 months tak kisi or ka content use nahi karna plz tell me",
+    "noisy_word": "hati",
+    "target_word": "hoti",
+    "prediction": "hati",
+    "is_noisy": true,
+    "input_text": "normalize: Copyright strike aane k bad 3 months tak koi video upload nahi karni <n>hati</n> kya? Ya sirf 3 months tak kisi or ka content use nahi karna plz tell me",
+    "hybrid_v1_cands": [
+      "hatti",
+      "hattya",
+      "hataya",
+      "hatya",
+      "hate"
+    ]
+  },
+  {
+    "raw_sentence": "Thanks aapka Modi ji gareeb handicapt berozgaar beghar vidhwa mahilaaon ko apne mp dwara sanatani ko dhakke dene ke liye.",
+    "noisy_word": "handicapt",
+    "target_word": "handicapped",
+    "prediction": "handicapt",
+    "is_noisy": true,
+    "input_text": "normalize: Thanks aapka Modi ji gareeb <n>handicapt</n> berozgaar beghar vidhwa mahilaaon ko apne mp dwara sanatani ko dhakke dene ke liye.",
+    "hybrid_v1_cands": [
+      "sindicat",
+      "pandit",
+      "hendicap",
+      "handicapped",
+      "indicate"
+    ]
+  },
+  {
+    "raw_sentence": "Hlo sir main abhi 12 ka exam di hu mujhe business man bana h main kaise ban sakti hu..",
+    "noisy_word": "12",
+    "target_word": "12th",
+    "prediction": "12",
+    "is_noisy": true,
+    "input_text": "normalize: Hlo sir main abhi <n>12</n> ka exam di hu mujhe business man bana h main kaise ban sakti hu..",
+    "hybrid_v1_cands": [
+      "1",
+      "712",
+      "112",
+      "192",
+      "12",
+      "22"
+    ]
+  },
+  {
+    "raw_sentence": "Ladakh, Manipur wale bhi yaad kar rahe hain. Waha kya hua, waha kaunsi Modi ki guarantee hai, samajh nahi aa raha. Anshan chalu hai.",
+    "noisy_word": "waha",
+    "target_word": "wahaan",
+    "prediction": "waha",
+    "is_noisy": true,
+    "input_text": "normalize: Ladakh, Manipur wale bhi yaad kar rahe hain. <n>waha</n> kya hua, waha kaunsi Modi ki guarantee hai, samajh nahi aa raha. Anshan chalu hai.",
+    "hybrid_v1_cands": [
+      "wah",
+      "wha",
+      "waha",
+      "wahh",
+      "waah",
+      "wahe"
+    ]
+  },
+  {
+    "raw_sentence": "Unka sangharsh hi hmare liye garbh ki bat hI pr mujhe dukh hai aise samaj pr jo mansik ar imotional dono rup se viklang hota ja rha hai",
+    "noisy_word": "rup",
+    "target_word": "roop",
+    "prediction": "rup",
+    "is_noisy": true,
+    "input_text": "normalize: Unka sangharsh hi hmare liye garbh ki bat hI pr mujhe dukh hai aise samaj pr jo mansik ar imotional dono <n>rup</n> se viklang hota ja rha hai",
+    "hybrid_v1_cands": [
+      "roop",
+      "arop",
+      "ruk",
+      "rup",
+      "rus",
+      "aarop"
+    ]
+  },
+  {
+    "raw_sentence": "My token ke baare me bataen sir ye frode hai ya sahi hai",
+    "noisy_word": "bataen",
+    "target_word": "batayen",
+    "prediction": "batayein",
+    "is_noisy": true,
+    "input_text": "normalize: My token ke baare me <n>bataen</n> sir ye frode hai ya sahi hai",
+    "hybrid_v1_cands": [
+      "bataen",
+      "batein",
+      "baaten",
+      "bataein",
+      "batan",
+      "baatain",
+      "baten"
+    ]
+  },
+  {
+    "raw_sentence": "12 sal me duble se bhi jyada ho gaya ye bhi to batao",
+    "noisy_word": "jyada",
+    "target_word": "zyada",
+    "prediction": "jyada",
+    "is_noisy": true,
+    "input_text": "normalize: 12 sal me duble se bhi <n>jyada</n> ho gaya ye bhi to batao",
+    "hybrid_v1_cands": [
+      "jyadaa",
+      "jiada",
+      "jyada",
+      "jayada",
+      "jyda",
+      "jyaada"
+    ]
+  },
+  {
+    "raw_sentence": "Pok ke sath sath Cok bhi bharat ka hai use kyun nhi",
+    "noisy_word": "sath",
+    "target_word": "sath",
+    "prediction": "saath",
+    "is_noisy": false,
+    "input_text": "normalize: Pok ke sath <n>sath</n> Cok bhi bharat ka hai use kyun nhi",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Dam Agar Tut Jaega To India mein Jitna aadami Hai Sab marega",
+    "noisy_word": "tut",
+    "target_word": "toot",
+    "prediction": "tut",
+    "is_noisy": true,
+    "input_text": "normalize: Dam Agar <n>tut</n> Jaega To India mein Jitna aadami Hai Sab marega",
+    "hybrid_v1_cands": [
+      "tut",
+      "but",
+      "lut",
+      "mut",
+      "toot",
+      "hut"
+    ]
+  },
+  {
+    "raw_sentence": "I completed your free course, \"The Last Course for Your Best Life,\" and I follow this message: \"How can this be done without me?\" Thank you, sir!",
+    "noisy_word": "can",
+    "target_word": "can",
+    "prediction": "and",
+    "is_noisy": false,
+    "input_text": "normalize: I completed your free course, \"The Last Course for Your Best Life,\" and I follow this message: \"How <n>can</n> this be done without me?\" Thank you, sir!",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Aapke dil ko jo lag jaaye, wo dua ki sabse achchi chiz hoti hai. Jeevan aise hi bit-ta hai, aur baat ye hai ki kuch bhi asthaiya nahi hota.",
+    "noisy_word": "bitta",
+    "target_word": "bitaata",
+    "prediction": "bitta",
+    "is_noisy": true,
+    "input_text": "normalize: Aapke dil ko jo lag jaaye, wo dua ki sabse achchi chiz hoti hai. Jeevan aise hi <n>bitta</n> hai, aur baat ye hai ki kuch bhi asthaiya nahi hota.",
+    "hybrid_v1_cands": [
+      "bite",
+      "bita",
+      "bit",
+      "beta",
+      "baita"
+    ]
+  },
+  {
+    "raw_sentence": "Mam aap ko mere tharfse Rahul jaisa baccha ko parchey diya my Telangana se hu",
+    "noisy_word": "parchey",
+    "target_word": "parchey",
+    "prediction": "parche",
+    "is_noisy": false,
+    "input_text": "normalize: Mam aap ko mere tharfse Rahul jaisa baccha ko <n>parchey</n> diya my Telangana se hu",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Superb video sir. Black money ke video ke uper Thoda Aur knowledge chahiye sir plz. Making videos",
+    "noisy_word": "making",
+    "target_word": "make",
+    "prediction": "making",
+    "is_noisy": true,
+    "input_text": "normalize: Superb video sir. Black money ke video ke uper Thoda Aur knowledge chahiye sir plz. <n>making</n> videos",
+    "hybrid_v1_cands": [
+      "mapping",
+      "making",
+      "baking",
+      "taking",
+      "amazing",
+      "king"
+    ]
+  },
+  {
+    "raw_sentence": "mujhe nahi samjhta jab pvt college Accha hai to iska virodh kyu.",
+    "noisy_word": "pvt",
+    "target_word": "private",
+    "prediction": "pvt",
+    "is_noisy": true,
+    "input_text": "normalize: mujhe nahi samjhta jab <n>pvt</n> college Accha hai to iska virodh kyu.",
+    "hybrid_v1_cands": [
+      "prt",
+      "pvt",
+      "pet",
+      "pat",
+      "ppt",
+      "pvc"
+    ]
+  },
+  {
+    "raw_sentence": "America sehi kaha hai india ki durdasha ke liye brahimin zimmedaar haiii...",
+    "noisy_word": "zimmedaar",
+    "target_word": "zimmedaar",
+    "prediction": "zimmedar",
+    "is_noisy": false,
+    "input_text": "normalize: America sehi kaha hai india ki durdasha ke liye brahimin <n>zimmedaar</n> haiii...",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Sar yah bittorent ya coin par Paisa Lagana Sahi Rahega ya nahin is per video naye",
+    "noisy_word": "naye",
+    "target_word": "naya",
+    "prediction": "naye",
+    "is_noisy": true,
+    "input_text": "normalize: Sar yah bittorent ya coin par Paisa Lagana Sahi Rahega ya nahin is per video <n>naye</n>",
+    "hybrid_v1_cands": [
+      "naya",
+      "naye",
+      "nyi",
+      "nye",
+      "nya",
+      "nayi"
+    ]
+  },
+  {
+    "raw_sentence": "Silver 90000 se achanak barh gya tha to isi rate par kab tak return hoga.",
+    "noisy_word": "barh",
+    "target_word": "badh",
+    "prediction": "baar",
+    "is_noisy": true,
+    "input_text": "normalize: Silver 90000 se achanak <n>barh</n> gya tha to isi rate par kab tak return hoga.",
+    "hybrid_v1_cands": [
+      "barhhhh",
+      "barh",
+      "bath",
+      "bach",
+      "bar",
+      "barf"
+    ]
+  },
+  {
+    "raw_sentence": "Thank u so much sir. Bhut achhe tarike se smjhate hai aap.",
+    "noisy_word": "achhe",
+    "target_word": "acchhe",
+    "prediction": "achhe",
+    "is_noisy": true,
+    "input_text": "normalize: Thank u so much sir. Bhut <n>achhe</n> tarike se smjhate hai aap.",
+    "hybrid_v1_cands": [
+      "achhai",
+      "achhi",
+      "aachhe",
+      "achhae",
+      "acchhe",
+      "achhe",
+      "achhee"
+    ]
+  },
+  {
+    "raw_sentence": "Aap sirf trading ka gyan de baki rhne de aapko kuch ni pta",
+    "noisy_word": "de",
+    "target_word": "dein",
+    "prediction": "de",
+    "is_noisy": true,
+    "input_text": "normalize: Aap sirf trading ka gyan <n>de</n> baki rhne de aapko kuch ni pta",
+    "hybrid_v1_cands": [
+      "de",
+      "di",
+      "dde",
+      "dee",
+      "da",
+      "dea"
+    ]
+  },
+  {
+    "raw_sentence": "Muje lgta hai samaj jidar bhi jaye humens ke liye sahi hoga",
+    "noisy_word": "jidar",
+    "target_word": "jab",
+    "prediction": "zidar",
+    "is_noisy": true,
+    "input_text": "normalize: Muje lgta hai samaj <n>jidar</n> bhi jaye humens ke liye sahi hoga",
+    "hybrid_v1_cands": [
+      "idar",
+      "jaikar",
+      "edar",
+      "jidd",
+      "nidar"
+    ]
+  },
+  {
+    "raw_sentence": "Sar yah bittorent ya coin par Paisa Lagana Sahi Rahega ya nahin is per video naye",
+    "noisy_word": "bittorent",
+    "target_word": "bittorrent",
+    "prediction": "bittorent",
+    "is_noisy": true,
+    "input_text": "normalize: Sar yah <n>bittorent</n> ya coin par Paisa Lagana Sahi Rahega ya nahin is per video naye",
+    "hybrid_v1_cands": [
+      "restorent",
+      "inocent",
+      "restaurant",
+      "fitment",
+      "turant"
+    ]
+  },
+  {
+    "raw_sentence": "Amma logon ne zyada bachche paida kiye hain. Phal‑meva khane ko mile to sab lambi ho jaayen.",
+    "noisy_word": "mile",
+    "target_word": "milen",
+    "prediction": "mile",
+    "is_noisy": true,
+    "input_text": "normalize: Amma logon ne zyada bachche paida kiye hain. Phal‑meva khane ko <n>mile</n> to sab lambi ho jaayen.",
+    "hybrid_v1_cands": [
+      "mela",
+      "mele",
+      "meele",
+      "mila",
+      "maila",
+      "mili",
+      "mile"
+    ]
+  },
+  {
+    "raw_sentence": "Nice story kisi bhi kam ko soro Karna sa phla hi give up nhi Karna chya AK chance zaror Dana chya",
+    "noisy_word": "phla",
+    "target_word": "pehle",
+    "prediction": "pehla",
+    "is_noisy": true,
+    "input_text": "normalize: Nice story kisi bhi kam ko soro Karna sa <n>phla</n> hi give up nhi Karna chya AK chance zaror Dana chya",
+    "hybrid_v1_cands": [
+      "phle",
+      "phla",
+      "phal",
+      "pahla",
+      "phale",
+      "pahl"
+    ]
+  },
+  {
+    "raw_sentence": "Bharat bhai plz ek fried momo recipe without cabbage ki video bhi bano do plz",
+    "noisy_word": "bano",
+    "target_word": "bana",
+    "prediction": "bano",
+    "is_noisy": true,
+    "input_text": "normalize: Bharat bhai plz ek fried momo recipe without cabbage ki video bhi <n>bano</n> do plz",
+    "hybrid_v1_cands": [
+      "banaao",
+      "banu",
+      "banao",
+      "banau",
+      "bano",
+      "bno"
+    ]
+  },
+  {
+    "raw_sentence": "Is sansar mein Janam lena hi ek desease hai, bahut kam mahapurush hain jo is desease ko bhi Aanad (Joy) mein badal dete hein...",
+    "noisy_word": "aanad",
+    "target_word": "anand",
+    "prediction": "aanad",
+    "is_noisy": true,
+    "input_text": "normalize: Is sansar mein Janam lena hi ek desease hai, bahut kam mahapurush hain jo is desease ko bhi <n>aanad</n> (Joy) mein badal dete hein...",
+    "hybrid_v1_cands": [
+      "anda",
+      "and",
+      "nd",
+      "end",
+      "aand"
+    ]
+  },
+  {
+    "raw_sentence": "Unka sangharsh hi hmare liye garbh ki bat hI pr mujhe dukh hai aise samaj pr jo mansik ar imotional dono rup se viklang hota ja rha hai",
+    "noisy_word": "garbh",
+    "target_word": "garv",
+    "prediction": "garbh",
+    "is_noisy": true,
+    "input_text": "normalize: Unka sangharsh hi hmare liye <n>garbh</n> ki bat hI pr mujhe dukh hai aise samaj pr jo mansik ar imotional dono rup se viklang hota ja rha hai",
+    "hybrid_v1_cands": [
+      "grih",
+      "gruh",
+      "grah",
+      "garkha",
+      "garb"
+    ]
+  },
+  {
+    "raw_sentence": "Aap dono ku Gud khila diye ,Sada bane raho PM, But u don't know how u continue without them.",
+    "noisy_word": "diye",
+    "target_word": "diya",
+    "prediction": "diye",
+    "is_noisy": true,
+    "input_text": "normalize: Aap dono ku Gud khila <n>diye</n> ,Sada bane raho PM, But u don't know how u continue without them.",
+    "hybrid_v1_cands": [
+      "deya",
+      "diya",
+      "diyaa",
+      "deye",
+      "diye",
+      "diyea"
+    ]
+  },
+  {
+    "raw_sentence": "Sir main myanmar se hu yaha ki halat bahut kharab hai sir",
+    "noisy_word": "yaha",
+    "target_word": "yahan",
+    "prediction": "yahaan",
+    "is_noisy": true,
+    "input_text": "normalize: Sir main myanmar se hu <n>yaha</n> ki halat bahut kharab hai sir",
+    "hybrid_v1_cands": [
+      "yaah",
+      "yah",
+      "yha",
+      "yeha",
+      "yaha",
+      "yh"
+    ]
+  },
+  {
+    "raw_sentence": "Andekha krna bhi chahia kyu ki niyam kanun sb ka lia ek.hai.",
+    "noisy_word": "ekhai",
+    "target_word": "hai",
+    "prediction": "ekhai",
+    "is_noisy": true,
+    "input_text": "normalize: Andekha krna bhi chahia kyu ki niyam kanun sb ka lia <n>ekhai</n>",
+    "hybrid_v1_cands": [
+      "aakhe",
+      "dekhai",
+      "khai",
+      "akhay",
+      "akhe"
+    ]
+  },
+  {
+    "raw_sentence": "Ek baar agar aap apni jindgi mai is comment ka reply kar denge toh aapka kuch nuksan thodi na hoga sir",
+    "noisy_word": "jindgi",
+    "target_word": "zindagi",
+    "prediction": "jindagi",
+    "is_noisy": true,
+    "input_text": "normalize: Ek baar agar aap apni <n>jindgi</n> mai is comment ka reply kar denge toh aapka kuch nuksan thodi na hoga sir",
+    "hybrid_v1_cands": [
+      "zindagi",
+      "jindagi",
+      "jindegi",
+      "jainge",
+      "jindgi",
+      "zindgi"
+    ]
+  },
+  {
+    "raw_sentence": "Proud christian. israeli yahodi fasad phelty he duniya me israel jews ke waja se duniya me war&#39;s hoti he jungs",
+    "noisy_word": "phelty",
+    "target_word": "phailta",
+    "prediction": "pehle",
+    "is_noisy": true,
+    "input_text": "normalize: Proud christian. israeli yahodi fasad <n>phelty</n> he duniya me israel jews ke waja se duniya me war&#39;s hoti he jungs",
+    "hybrid_v1_cands": [
+      "chalti",
+      "phulti",
+      "phailaya",
+      "pheli",
+      "phulati"
+    ]
+  },
+  {
+    "raw_sentence": "Yes sir hame v lagta hai ki jo hota hai woo aatche k liye hota hai...",
+    "noisy_word": "hame",
+    "target_word": "hume",
+    "prediction": "humein",
+    "is_noisy": true,
+    "input_text": "normalize: Yes sir <n>hame</n> v lagta hai ki jo hota hai woo aatche k liye hota hai...",
+    "hybrid_v1_cands": [
+      "hamee",
+      "hamea",
+      "hme",
+      "hame",
+      "hmme",
+      "hma",
+      "hamai"
+    ]
+  },
+  {
+    "raw_sentence": "Thik hai thora sishta se baat karni chahiye, lekin sambhidhan ki raksha ki baat karna Kahan Tak galat hai.",
+    "noisy_word": "thik",
+    "target_word": "thik",
+    "prediction": "theek",
+    "is_noisy": false,
+    "input_text": "normalize: <n>thik</n> hai thora sishta se baat karni chahiye, lekin sambhidhan ki raksha ki baat karna Kahan Tak galat hai.",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Maine 4 se 5 allu le liye hai, hahah picture me 7 aalu le liye hai,",
+    "noisy_word": "hai",
+    "target_word": "hai",
+    "prediction": "hain",
+    "is_noisy": false,
+    "input_text": "normalize: Maine 4 se 5 allu le liye hai, hahah picture me 7 aalu le liye <n>hai</n>",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Sab uews karenge lekin mut wala raam Dev ka product nhi jiko karna jao karo mut wala",
+    "noisy_word": "uews",
+    "target_word": "news",
+    "prediction": "uews",
+    "is_noisy": true,
+    "input_text": "normalize: Sab <n>uews</n> karenge lekin mut wala raam Dev ka product nhi jiko karna jao karo mut wala",
+    "hybrid_v1_cands": [
+      "upwas",
+      "jews",
+      "ues",
+      "ews",
+      "news"
+    ]
+  },
+  {
+    "raw_sentence": "tamatar dalne k baad kadhai me koi sabji nhi pakti... kachi hi rahegi.. cooker me to ban jayegi",
+    "noisy_word": "kachi",
+    "target_word": "kacchi",
+    "prediction": "kachi",
+    "is_noisy": true,
+    "input_text": "normalize: tamatar dalne k baad kadhai me koi sabji nhi pakti... <n>kachi</n> hi rahegi.. cooker me to ban jayegi",
+    "hybrid_v1_cands": [
+      "kacchi",
+      "kafhi",
+      "kacche",
+      "kachhe",
+      "kache"
+    ]
+  },
+  {
+    "raw_sentence": "Government job walo ka phir to 12 ghante krna chahiye...kyo ki wo bilkul kam nahi karte hai",
+    "noisy_word": "ka",
+    "target_word": "ko",
+    "prediction": "ka",
+    "is_noisy": true,
+    "input_text": "normalize: Government job walo <n>ka</n> phir to 12 ghante krna chahiye...kyo ki wo bilkul kam nahi karte hai",
+    "hybrid_v1_cands": [
+      "kea",
+      "ka",
+      "aaka",
+      "kaa",
+      "ke",
+      "k"
+    ]
+  },
+  {
+    "raw_sentence": "But successful k sath wale follow nhi krne dete toh tell me what i do ????",
+    "noisy_word": "sath",
+    "target_word": "sath",
+    "prediction": "saath",
+    "is_noisy": false,
+    "input_text": "normalize: But successful k <n>sath</n> wale follow nhi krne dete toh tell me what i do ????",
+    "hybrid_v1_cands": []
+  },
+  {
+    "raw_sentence": "Office culrck vastava me sabse bada rishvat lene wala aur adiyal hota hai",
+    "noisy_word": "culrck",
+    "target_word": "culture",
+    "prediction": "culrck",
+    "is_noisy": true,
+    "input_text": "normalize: Office <n>culrck</n> vastava me sabse bada rishvat lene wala aur adiyal hota hai",
+    "hybrid_v1_cands": [
+      "click",
+      "crack",
+      "cource",
+      "cury",
+      "collect"
+    ]
+  },
+  {
+    "raw_sentence": "यह सम्पूर्ण टॉक सदस्यों के लिए उपलब्ध है: OSHO Hindi चैनल के सदस्यता लें - JOIN बटन पर click करें। दैनिक सम्पूर्ण टॉक्स की श्रंखला और विषयबद्ध टॉक्स का संकलन। शुल्क: ₹159 प्रति माह",
+    "noisy_word": "समपरण",
+    "target_word": "सपरण",
+    "prediction": "समपरण",
+    "is_noisy": true,
+    "input_text": "normalize: यह <n>समपरण</n> टॉक सदस्यों के लिए उपलब्ध है: OSHO Hindi चैनल के सदस्यता लें - JOIN बटन पर click करें। दैनिक सम्पूर्ण टॉक्स की श्रंखला और विषयबद्ध टॉक्स का संकलन। शुल्क: ₹159 प्रति माह",
+    "hybrid_v1_cands": [
+      "इमपरस",
+      "सपरण",
+      "सनपर",
+      "सरण",
+      "समपरण",
+      "सपरट"
+    ]
+  },
+  {
+    "raw_sentence": "Hme lgta hai chicken kaccha rh gya 2 min me chicken nhi pak pata, chicken hai maggi nhi",
+    "noisy_word": "hme",
+    "target_word": "hume",
+    "prediction": "humein",
+    "is_noisy": true,
+    "input_text": "normalize: <n>hme</n> lgta hai chicken kaccha rh gya 2 min me chicken nhi pak pata, chicken hai maggi nhi",
+    "hybrid_v1_cands": [
+      "hamee",
+      "hamea",
+      "hme",
+      "hame",
+      "hma",
+      "hmme"
+    ]
+  },
+  {
+    "raw_sentence": "Apne jamin ke liye larna kab se galat ho gya... Just because you don&#39;t understand language and culture don&#39;t say anything",
+    "noisy_word": "jamin",
+    "target_word": "jameen",
+    "prediction": "jamin",
+    "is_noisy": true,
+    "input_text": "normalize: Apne <n>jamin</n> ke liye larna kab se galat ho gya... Just because you don&#39;t understand language and culture don&#39;t say anything",
+    "hybrid_v1_cands": [
+      "jamini",
+      "jameen",
+      "jamin",
+      "jamen",
+      "aamin",
+      "jain"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+Train/Val/Test sentences: 11800 / 1475 / 1476
+Train Vocab Size (Retrieval Scope): 23408
+Precalculating Top-5 retrieval for 13066 unique noisy words...
+  Processed 1000/13066 (Time: 16.9s)
+  Processed 2000/13066 (Time: 33.5s)
+  Processed 3000/13066 (Time: 49.6s)
+  Processed 4000/13066 (Time: 72.4s)
+  Processed 5000/13066 (Time: 99.6s)
+  Processed 6000/13066 (Time: 125.0s)
+  Processed 7000/13066 (Time: 149.2s)
+  Processed 8000/13066 (Time: 169.3s)
+  Processed 9000/13066 (Time: 184.9s)
+  Processed 10000/13066 (Time: 200.4s)
+  Processed 11000/13066 (Time: 215.7s)
+  Processed 12000/13066 (Time: 231.3s)
+  Processed 13000/13066 (Time: 246.8s)
+Retrieval precalculation complete in 247.8s.
+
+=== HYBRID CANDIDATE STATISTICS ===
+Mean Cands: 6.35
+Median Cands: 6
+P95 Cands: 8
+Max Cands: 8
+1 cand(s): 0.00%
+2 cand(s): 0.00%
+3 cand(s): 0.00%
+4 cand(s): 0.00%
+5 cand(s): 2.64%
+6+ cands: 97.36%
+
+Gold Present (Hybrid): 47.61%
+Gold Absent (Hybrid): 52.39%
+
+=== CANDIDATE RECALL ABLATION ===
+Total instances requiring normalization: 60560
+A (Strict Phonetic): 9.93%
+B (Weighted Retrieval): 39.53%
+C (Chat Dict): 7.17%
+D (Strict + Weighted): 41.10%
+E (Strict + Weighted + Chat): 47.61%
+
+Data saved to data/processed/v1_hybrid_triplets.jsonl

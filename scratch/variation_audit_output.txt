@@ -1,0 +1,111 @@
+Loading data...
+Finding missing pairs...
+Total Missing Pairs: 57188
+
+--- Testing F1. Vowel/Schwa ---
+Recovered: 8001 / 57188 (13.99%)
+Candidate Growth: Avg 9.71, Med 7.0, P95 31.0, Max 1023
+Collisions (Est on full vocab): 7144
+Top Recovered Examples:
+  nhi -> nahi (1316)
+  kr -> kar (399)
+  rha -> raha (300)
+  pr -> par (234)
+  bhut -> bahut (213)
+  rhe -> rahe (195)
+  gya -> gaya (175)
+  krna -> karna (160)
+  bna -> bana (125)
+  krne -> karne (116)
+
+--- Testing F2. Vowel Length ---
+Recovered: 3069 / 57188 (5.37%)
+Candidate Growth: Avg 7.85, Med 5.0, P95 23.0, Max 431
+Collisions (Est on full vocab): 2634
+Top Recovered Examples:
+  or -> aur (640)
+  per -> par (161)
+  kon -> kaun (108)
+  mene -> maine (106)
+  kese -> kaise (93)
+  apka -> aapka (89)
+  jata -> jaata (67)
+  nehi -> nahi (46)
+  jese -> jaise (41)
+  aya -> aaya (40)
+
+--- Testing F3. Consonant ---
+Recovered: 1806 / 57188 (3.16%)
+Candidate Growth: Avg 28.31, Med 7.0, P95 95.0, Max 4999
+Collisions (Est on full vocab): 3713
+Top Recovered Examples:
+  fir -> phir (55)
+  kuchh -> kuch (50)
+  jyada -> zyada (47)
+  achcha -> accha (44)
+  bi -> bhi (39)
+  jindabad -> zindabad (23)
+  vi -> bhi (21)
+  vo -> wo (19)
+  sabji -> sabzi (18)
+  des -> desh (17)
+
+--- Testing F4. Terminal N/H ---
+Recovered: 6656 / 57188 (11.64%)
+Candidate Growth: Avg 2.75, Med 3.0, P95 3.0, Max 3
+Collisions (Est on full vocab): 30
+Top Recovered Examples:
+  to -> toh (2161)
+  hai -> hain (1185)
+  ye -> yeh (1177)
+  mai -> main (283)
+  wo -> woh (279)
+  hu -> hun (186)
+  logo -> logon (173)
+  hain -> hai (126)
+  nahin -> nahi (126)
+  kyu -> kyun (101)
+
+--- Testing F5. Repeated Ltr ---
+Recovered: 2364 / 57188 (4.13%)
+Candidate Growth: Avg 6.11, Med 6.0, P95 10.0, Max 15
+Collisions (Est on full vocab): 252
+Top Recovered Examples:
+  kuch -> kuchh (129)
+  apka -> aapka (89)
+  jata -> jaata (67)
+  are -> arre (61)
+  acha -> achha (58)
+  acha -> accha (56)
+  ache -> achhe (52)
+  kuchh -> kuch (50)
+  achi -> achhi (46)
+  aya -> aaya (40)
+
+--- Testing F6. Chat Dict ---
+Recovered: 4217 / 57188 (7.37%)
+Candidate Growth: Avg 0.00, Med 0.0, P95 0.0, Max 1
+Collisions (Est on full vocab): 0
+Top Recovered Examples:
+  h -> hai (1176)
+  plz -> please (981)
+  k -> ke (546)
+  kr -> kar (399)
+  u -> you (201)
+  m -> mein (144)
+  v -> bhi (141)
+  ni -> nahi (126)
+  plzz -> please (122)
+  pls -> please (118)
+
+================================================================================
+FINAL SUMMARY TABLE
+================================================================================
+Family               | Recoverable  | %      | Collisions | Avg Growth | Major Failure Mode  
+--------------------------------------------------------------------------------
+F1. Vowel/Schwa      | 8001         | 13.99  | 7144       | 9.71       | Collisions          
+F2. Vowel Length     | 3069         | 5.37   | 2634       | 7.85       | Collisions          
+F3. Consonant        | 1806         | 3.16   | 3713       | 28.31      | Candidate explosion 
+F4. Terminal N/H     | 6656         | 11.64  | 30         | 2.75       | None                
+F5. Repeated Ltr     | 2364         | 4.13   | 252        | 6.11       | Low recall          
+F6. Chat Dict        | 4217         | 7.37   | 0          | 0.00       | Maintenance overhead

@@ -751,3 +751,42 @@ License to be determined.
 ## 🧪 Project Philosophy
 
 > **Don't build what sounds impressive. Build what the experiments justify.**
+
+---
+
+## 🔁 Steps to Reproduce Results
+
+To reproduce the experimental results (accuracy, latency, and error profiles) described in the presentation and project documents:
+
+1. **Set up the environment:**
+   Install dependencies from the provided requirements list.
+   ```bash
+   python -m venv interIIT
+   # Windows: interIIT\Scripts\activate
+   # Linux/Mac: source interIIT/bin/activate
+   pip install -r requirements.txt
+   ```
+
+2. **Run Latency Benchmarks:**
+   Evaluate the inference speeds of the ByT5, MLP, and Cross-Encoder modules.
+   ```bash
+   python scripts/benchmark_latency.py
+   ```
+
+3. **Run Retrieval Benchmarks:**
+   Measure the performance of standard lexical retrieval approaches.
+   ```bash
+   python scripts/benchmark_retrieval.py
+   ```
+
+4. **Evaluate Generative Normalizer (ByT5):**
+   Run the evaluation script to measure Word Error Rate (WER) and phonetic accuracy of the generative normalization pipeline.
+   ```bash
+   python scripts/evaluate_byt5_normalizer.py
+   ```
+
+5. **Run Error Analysis:**
+   Perform detailed, phonetically-aware error categorization on model outputs.
+   ```bash
+   python scripts/error_analysis.py
+   ```

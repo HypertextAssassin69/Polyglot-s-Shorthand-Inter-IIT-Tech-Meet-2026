@@ -1,0 +1,65 @@
+--- 1 & 2. CHAT / ENGLISH ABBREV ---
+1. chat shorthand (vowel-less): sbh
+1. chat shorthand (vowel-less): hrr
+1. chat shorthand (vowel-less): bpl
+1. chat shorthand (vowel-less): psnd
+1. chat shorthand (vowel-less): rcp
+1. chat shorthand (vowel-less): rn
+1. chat shorthand (vowel-less): bf
+1. chat shorthand (vowel-less): hyd
+1. chat shorthand (vowel-less): cg
+1. chat shorthand (vowel-less): mfs
+1. chat shorthand (vowel-less): pyr
+1. chat shorthand (vowel-less): ym
+1. chat shorthand (vowel-less): kyy
+1. chat shorthand (vowel-less): b
+1. chat shorthand (vowel-less): bsp
+1. chat shorthand (vowel-less): pwd
+2. English/code-mixed abbreviation: okkk
+1. chat shorthand (vowel-less): ny
+1. chat shorthand (vowel-less): gb
+1. chat shorthand (vowel-less): pvt
+
+--- 3. VOWEL/SCHWA DELETION ---
+nhi -> nahi (1329)
+or -> aur (641)
+kr -> kar (399)
+he -> hai (380)
+rha -> raha (305)
+pr -> par (235)
+bhut -> bahut (214)
+ap -> aap (206)
+rhe -> rahe (198)
+apki -> aapki (197)
+
+--- 4. PHONETIC SPELLING VARIATION ---
+per -> par (162)
+is -> es (141)
+main -> mein (130)
+ham -> hum (127)
+bahot -> bahut (126)
+sar -> sir (109)
+yah -> yeh (104)
+pahle -> pehle (94)
+ke -> ki (82)
+he -> hi (80)
+
+--- 5. LEXICAL SUBSTITUTION ---
+h -> hai (1249)
+k -> ke (547)
+m -> mein (146)
+v -> bhi (141)
+ni -> nahi (126)
+q -> kyun (25)
+
+--- 6. OTHER NORMALIZATION ---
+me -> mein (2598)
+to -> toh (2172)
+hai -> hain (1311)
+ye -> yeh (1185)
+plz -> please (1014)
+hu -> hoon (425)
+h -> hain (305)
+mai -> main (285)
+mai -> mein (285)
+wo -> woh (279)

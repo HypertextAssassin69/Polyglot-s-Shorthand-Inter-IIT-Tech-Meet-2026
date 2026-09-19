@@ -1,0 +1,51 @@
+Loading data...
+
+--- Example Data Format ---
+Input : normalize: Thank <n>u</n> so much... Aapke madad se ham bahut kuch sikhe hai... Aap hamesa video banate rahiye... Again thanks a lot
+Target: you
+Noisy?: True
+
+Input : normalize: Thank u so much... <n>aapke</n> madad se ham bahut kuch sikhe hai... Aap hamesa video banate rahiye... Again thanks a lot
+Target: aapki
+Noisy?: True
+
+Loading model and tokenizer...
+
+--- Sanity Training (Overfitting 5 instances) ---
+Epoch 1, Loss: 11.5096
+Epoch 2, Loss: 9.6111
+Epoch 3, Loss: 7.9122
+Epoch 4, Loss: 5.1104
+Epoch 5, Loss: 2.7684
+Epoch 6, Loss: 1.6386
+Epoch 7, Loss: 1.3151
+Epoch 8, Loss: 1.0865
+Epoch 9, Loss: 0.8868
+Epoch 10, Loss: 0.6303
+
+--- Testing Generation After Sanity Train ---
+Input : normalize: Thank <n>u</n> so much... Aapke madad se ham bahut kuch sikhe hai... Aap hamesa video banate rahiye... Again thanks a lot
+Target: you
+Output: seekhe
+Match?: False
+
+Input : normalize: Thank u so much... <n>aapke</n> madad se ham bahut kuch sikhe hai... Aap hamesa video banate rahiye... Again thanks a lot
+Target: aapki
+Output: seekhe
+Match?: False
+
+Input : normalize: Thank u so much... Aapke madad se <n>ham</n> bahut kuch sikhe hai... Aap hamesa video banate rahiye... Again thanks a lot
+Target: hum
+Output: seekhe
+Match?: False
+
+Input : normalize: Thank u so much... Aapke madad se ham bahut kuch <n>sikhe</n> hai... Aap hamesa video banate rahiye... Again thanks a lot
+Target: seekhe
+Output: seekhe
+Match?: True
+
+Input : normalize: Thank u so much... Aapke madad se ham bahut kuch sikhe hai... Aap hamesa video banate <n>rahiye</n> Again thanks a lot
+Target: rahiye
+Output: rahiye
+Match?: True
+

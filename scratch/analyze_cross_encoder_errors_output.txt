@@ -1,0 +1,249 @@
+Total Ranker cases (Gold present): 2760
+Hybrid V1 (Dot) Ranker Fails: 637
+Cross-Encoder Ranker Fails: 1370
+
+Dot fails, CE succeeds (Fixed): 137
+Dot succeeds, CE fails (Broken): 870
+Both fail: 500
+
+--- 30 Random Examples Fixed by Cross-Encoder ---
+[1] Sentence: Bhaiya bohat ache se samjhaaye ho.... Encouraging tareeke se... Thnkew
+Noisy: samjhaaye  |  Gold: samjhaye
+Cands: ['samjhaya', 'samjhaaya', 'samajhaye', 'samjhye', 'samjhaaye', 'samjhaye']
+Hybrid V1 (Dot Product) Pred: samajhaye (Wrong)
+Cross-Encoder Pred: samjhaye (FIXED!)
+  CE Score (Gold samjhaye): 2.3636
+  CE Score (Distractor samajhaye): 1.7482
+--------------------------------------------------
+[2] Sentence: ek hi DIL hai MODI JI, kitne baar jitogee?? Congratulations team INDIA men and women, AMAZING
+Noisy: jitogee  |  Gold: jeetoge
+Cands: ['jitege', 'jitogee', 'jeetoge', 'jeetegi', 'jitoge', 'jitega']
+Hybrid V1 (Dot Product) Pred: jeetegi (Wrong)
+Cross-Encoder Pred: jeetoge (FIXED!)
+  CE Score (Gold jeetoge): 1.5416
+  CE Score (Distractor jeetegi): 0.5210
+--------------------------------------------------
+[3] Sentence: Golan height pahle Syria ka tha ab Israel ka hissa hai
+Noisy: height  |  Gold: heights
+Cands: ['heights', 'weight', 'waight', 'eight', 'hight', 'height']
+Hybrid V1 (Dot Product) Pred: hight (Wrong)
+Cross-Encoder Pred: heights (FIXED!)
+  CE Score (Gold heights): 3.4393
+  CE Score (Distractor hight): 0.8569
+--------------------------------------------------
+[4] Sentence: Dy chandrachud n jis trha se kaam kiya syed hi aaj ki rajneeti m koi or kr payega.. ...respected DY chandrachud
+Noisy: syed  |  Gold: sayad
+Cands: ['sayed', 'syed', 'syd', 'sie', 'sayad', 'seed']
+Hybrid V1 (Dot Product) Pred: syed (Wrong)
+Cross-Encoder Pred: sayad (FIXED!)
+  CE Score (Gold sayad): 2.6880
+  CE Score (Distractor syed): 1.3809
+--------------------------------------------------
+[5] Sentence: Kitna accha hai na, prime minister modi ji, chote chote logo se kitna pyar karte hain, jai hind jai modi ji
+Noisy: chote  |  Gold: chhote
+Cands: ['choti', 'chotte', 'chota', 'chote', 'choote', 'chhote']
+Hybrid V1 (Dot Product) Pred: choote (Wrong)
+Cross-Encoder Pred: chhote (FIXED!)
+  CE Score (Gold chhote): 3.9334
+  CE Score (Distractor choote): 2.7685
+--------------------------------------------------
+[6] Sentence: Kya bolte ho sir Hamane bhi to itihaas racha hai Hamne kumbh mele me 50 crore logon ko snan karaya
+Noisy: hamne  |  Gold: humne
+Cands: ['hamee', 'hamhe', 'hmne', 'hamne', 'humne', 'hamane']
+Hybrid V1 (Dot Product) Pred: hamane (Wrong)
+Cross-Encoder Pred: humne (FIXED!)
+  CE Score (Gold humne): 4.2466
+  CE Score (Distractor hamane): 1.9936
+--------------------------------------------------
+[7] Sentence: Short selling intraday kai lye hota hai ya usko hold kar sakte hai
+Noisy: kai  |  Gold: ke
+Cands: ['ky', 'ki', 'kae', 'kai', 'kay', 'kei', 'ke']
+Hybrid V1 (Dot Product) Pred: ki (Wrong)
+Cross-Encoder Pred: ke (FIXED!)
+  CE Score (Gold ke): 3.2122
+  CE Score (Distractor ki): 2.3178
+--------------------------------------------------
+[8] Sentence: Ram Raj ki jai ho Long live Modi ji jai NEW BHARAT with Modi ji Sarkar in SHRI RAM RAJ
+Noisy: raj  |  Gold: raaj
+Cands: ['raaj', 'raja', 'aaj', 'rj', 'raj', 'reja']
+Hybrid V1 (Dot Product) Pred: reja (Wrong)
+Cross-Encoder Pred: raaj (FIXED!)
+  CE Score (Gold raaj): 0.7144
+  CE Score (Distractor reja): -1.2056
+--------------------------------------------------
+[9] Sentence: Mere Sath Scams huaa sir Niva Bupa ke dwara Froud hai company
+Noisy: froud  |  Gold: fraud
+Cands: ['fraud', 'food', 'proud', 'frod', 'froad', 'froud']
+Hybrid V1 (Dot Product) Pred: food (Wrong)
+Cross-Encoder Pred: fraud (FIXED!)
+  CE Score (Gold fraud): 2.9611
+  CE Score (Distractor food): 2.3038
+--------------------------------------------------
+[10] Sentence: Ayushman Card to bna hua hai lekin esase ilag nahi hota kisi kam ka nahi hai. Card banwane me paise aur time dono ki barbadi hui
+Noisy: ilag  |  Gold: alag
+Cands: ['ilaj', 'flag', 'lag', 'ilag', 'alag', 'leg']
+Hybrid V1 (Dot Product) Pred: ilag (Wrong)
+Cross-Encoder Pred: alag (FIXED!)
+  CE Score (Gold alag): 2.7766
+  CE Score (Distractor ilag): 2.5081
+--------------------------------------------------
+[11] Sentence: Sir hum sham ko potato fry karke rakh sakte hai kya subah tiffin banane ke liye????
+Noisy: sham  |  Gold: shaam
+Cands: ['shaam', 'shrm', 'sam', 'shyam', 'sham', 'shah']
+Hybrid V1 (Dot Product) Pred: shrm (Wrong)
+Cross-Encoder Pred: shaam (FIXED!)
+  CE Score (Gold shaam): 2.9083
+  CE Score (Distractor shrm): 1.1210
+--------------------------------------------------
+[12] Sentence: Modi ji aap humare liye bhagwan hai aapke wajah se hi mujhe makan mila hai
+Noisy: aapke  |  Gold: aapki
+Cands: ['aapki', 'apke', 'aapake', 'aaapke', 'aapke', 'aapkee']
+Hybrid V1 (Dot Product) Pred: aapke (Wrong)
+Cross-Encoder Pred: aapki (FIXED!)
+  CE Score (Gold aapki): 2.9663
+  CE Score (Distractor aapke): 2.8504
+--------------------------------------------------
+[13] Sentence: Prabhu Shree Jagannath Ji ka ashirwad se Odisha main sarkar banane ke liye aapko subh kamnaye hai
+Noisy: kamnaye  |  Gold: kaamnaye
+Cands: ['kamaya', 'kamnaye', 'kaamnaye', 'kamnaaye', 'kamaye', 'kamane']
+Hybrid V1 (Dot Product) Pred: kamane (Wrong)
+Cross-Encoder Pred: kaamnaye (FIXED!)
+  CE Score (Gold kaamnaye): -0.0771
+  CE Score (Distractor kamane): -0.8576
+--------------------------------------------------
+[14] Sentence: bahut acha huaa or itna hi ekdam pura system hi hata de to or hi acha hai
+Noisy: acha  |  Gold: achha
+Cands: ['cha', 'accha', 'acha', 'achaa', 'achha', 'aacha']
+Hybrid V1 (Dot Product) Pred: accha (Wrong)
+Cross-Encoder Pred: achha (FIXED!)
+  CE Score (Gold achha): 3.0469
+  CE Score (Distractor accha): 2.6079
+--------------------------------------------------
+[15] Sentence: Sir ji jaise unacdmy ko barbaad kiye hai waise hi an study IQ ko nhi karenge kya Bahut khub
+Noisy: unacdmy  |  Gold: unacademy
+Cands: ['unacdmy', 'unchai', 'anandmayi', 'unchi', 'oonchai', 'unacademy']
+Hybrid V1 (Dot Product) Pred: anandmayi (Wrong)
+Cross-Encoder Pred: unacademy (FIXED!)
+  CE Score (Gold unacademy): 3.6080
+  CE Score (Distractor anandmayi): 2.6800
+--------------------------------------------------
+[16] Sentence: dhanny hai hum dhanny hai bharrat mata jo humei itna accha beta sebak desh vhakt diyea pm narandra modi..
+Noisy: sebak  |  Gold: sevak
+Cands: ['sabka', 'sebak', 'sabk', 'sevak', 'bebak', 'sewak']
+Hybrid V1 (Dot Product) Pred: sewak (Wrong)
+Cross-Encoder Pred: sevak (FIXED!)
+  CE Score (Gold sevak): 1.4377
+  CE Score (Distractor sewak): 1.4245
+--------------------------------------------------
+[17] Sentence: Mujh jaise alsi logon ke liye aap devta saman hai.... Prabhu
+Noisy: alsi  |  Gold: aalsi
+Cands: ['else', 'aesi', 'alsi', 'ali', 'aalsi', 'aysi']
+Hybrid V1 (Dot Product) Pred: else (Wrong)
+Cross-Encoder Pred: aalsi (FIXED!)
+  CE Score (Gold aalsi): 2.2996
+  CE Score (Distractor else): 1.6566
+--------------------------------------------------
+[18] Sentence: Sie kuch nhi milne wala sirf jumla hai da ghatakar barabr kar denge
+Noisy: barabr  |  Gold: barabar
+Cands: ['baarbaar', 'barabr', 'brar', 'barabar', 'barobar', 'barabari']
+Hybrid V1 (Dot Product) Pred: baarbaar (Wrong)
+Cross-Encoder Pred: barabar (FIXED!)
+  CE Score (Gold barabar): 3.4592
+  CE Score (Distractor baarbaar): 3.2695
+--------------------------------------------------
+[19] Sentence: Besan burfi ke jagah pe... Usi batter se besan lddu bna sakte hain kya Plz reply
+Noisy: lddu  |  Gold: laddu
+Cands: ['ladu', 'laddo', 'lado', 'laddoo', 'laddu']
+Hybrid V1 (Dot Product) Pred: laddoo (Wrong)
+Cross-Encoder Pred: laddu (FIXED!)
+  CE Score (Gold laddu): 2.6591
+  CE Score (Distractor laddoo): 2.5611
+--------------------------------------------------
+[20] Sentence: Recepie to SB btaty hain lakin Jo tricks app btaty hain aisy koi guide nahi krta so thnx. Allah bless you for your honesty
+Noisy: thnx  |  Gold: thanks
+Cands: ['thnq', 'thxx', 'thanks', 'thax', 'thnx', 'thanxx', 'thanx']
+Hybrid V1 (Dot Product) Pred: thax (Wrong)
+Cross-Encoder Pred: thanks (FIXED!)
+  CE Score (Gold thanks): -0.4591
+  CE Score (Distractor thax): -2.9669
+--------------------------------------------------
+[21] Sentence: Aabe, kannad nahi aane ke karan mara….. sahi se bata
+Noisy: kannad  |  Gold: kannada
+Cands: ['kand', 'kannad', 'kaand', 'kannada', 'kanada', 'kanda']
+Hybrid V1 (Dot Product) Pred: kaand (Wrong)
+Cross-Encoder Pred: kannada (FIXED!)
+  CE Score (Gold kannada): 2.5424
+  CE Score (Distractor kaand): 1.8381
+--------------------------------------------------
+[22] Sentence: Kash har state may aise doctors agay aakar logon ki madad karen to bahut accha hoga. Aaj bade shahron may bhi logon ko GP nahi milte jinsay milkar apni duvida keh payen.
+Noisy: duvida  |  Gold: duvidha
+Cands: ['duvida', 'devide', 'covid', 'duvidha', 'divide', 'david']
+Hybrid V1 (Dot Product) Pred: divide (Wrong)
+Cross-Encoder Pred: duvidha (FIXED!)
+  CE Score (Gold duvidha): 2.4389
+  CE Score (Distractor divide): 1.8420
+--------------------------------------------------
+[23] Sentence: Mere papa ne bhi body donet kar di hai it&#39;s very painful for me but I proud of my father
+Noisy: donet  |  Gold: donate
+Cands: ['dona', 'dunia', 'donet', 'donate', 'dont', 'done']
+Hybrid V1 (Dot Product) Pred: donet (Wrong)
+Cross-Encoder Pred: donate (FIXED!)
+  CE Score (Gold donate): 2.7335
+  CE Score (Distractor donet): 2.3793
+--------------------------------------------------
+[24] Sentence: Yogi jii jaise cm aur Bharat me ho to ye desh kaha se kaha chal jaaye love u yogi jii
+Noisy: chal  |  Gold: chala
+Cands: ['chal', 'chaal', 'chl', 'chla', 'chall', 'chala']
+Hybrid V1 (Dot Product) Pred: chal (Wrong)
+Cross-Encoder Pred: chala (FIXED!)
+  CE Score (Gold chala): 3.2767
+  CE Score (Distractor chal): 3.0829
+--------------------------------------------------
+[25] Sentence: Bahut sunder, Chef Really mouthwatering Yaad dila di aapne school canteen ki..
+Noisy: dila  |  Gold: dilaa
+Cands: ['deela', 'dil', 'del', 'dill', 'dila', 'dilaa']
+Hybrid V1 (Dot Product) Pred: dila (Wrong)
+Cross-Encoder Pred: dilaa (FIXED!)
+  CE Score (Gold dilaa): 2.3740
+  CE Score (Distractor dila): 0.9152
+--------------------------------------------------
+[26] Sentence: Salam aise patrakar ko, aur interview dene wali ka bhi besharmi ki saari haden paar.
+Noisy: salam  |  Gold: salaam
+Cands: ['sala', 'slam', 'salad', 'kalam', 'salaam', 'salam']
+Hybrid V1 (Dot Product) Pred: kalam (Wrong)
+Cross-Encoder Pred: salaam (FIXED!)
+  CE Score (Gold salaam): 0.4673
+  CE Score (Distractor kalam): -1.0381
+--------------------------------------------------
+[27] Sentence: Thank u bhaijan sab kuch samaj gaya matlab saaf hay k sahe waqt par pesy lgao aur sahe waqt py nikal jao profit k sath lalachi na bano
+Noisy: lgao  |  Gold: lagao
+Cands: ['lgao', 'lagau', 'lgo', 'algo', 'lagao', 'lago']
+Hybrid V1 (Dot Product) Pred: lago (Wrong)
+Cross-Encoder Pred: lagao (FIXED!)
+  CE Score (Gold lagao): 2.5958
+  CE Score (Distractor lago): 2.3848
+--------------------------------------------------
+[28] Sentence: Mujhe simla mirch ki chatni ki recipe dekhni h, plz ye video daliye
+Noisy: simla  |  Gold: shimla
+Cands: ['sima', 'sema', 'sim', 'simple', 'shimla', 'simla']
+Hybrid V1 (Dot Product) Pred: simple (Wrong)
+Cross-Encoder Pred: shimla (FIXED!)
+  CE Score (Gold shimla): 2.9809
+  CE Score (Distractor simple): 2.8030
+--------------------------------------------------
+[29] Sentence: Ye hamare desh ka shoubhagya hai ki aap jese pm hamein mile salute you sir
+Noisy: hamein  |  Gold: humein
+Cands: ['hamee', 'humein', 'zameen', 'hamein', 'hadein', 'hamen']
+Hybrid V1 (Dot Product) Pred: zameen (Wrong)
+Cross-Encoder Pred: humein (FIXED!)
+  CE Score (Gold humein): 4.7075
+  CE Score (Distractor zameen): 4.3221
+--------------------------------------------------
+[30] Sentence: Sir agar ham 10 sal ke liye invest Kar rahe hai to uske pahle ham us paiso ko nikal sakte hai ya nahi
+Noisy: paiso  |  Gold: paise
+Cands: ['parso', 'jaiso', 'pairo', 'paison', 'paiso', 'paise']
+Hybrid V1 (Dot Product) Pred: paison (Wrong)
+Cross-Encoder Pred: paise (FIXED!)
+  CE Score (Gold paise): 3.3836
+  CE Score (Distractor paison): 2.5874
+--------------------------------------------------

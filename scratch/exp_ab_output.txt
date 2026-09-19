@@ -1,0 +1,38 @@
+Loading data directly...
+Total Unique Pairs: 21914, Total missing instances: 62884
+
+==================================================
+EXPERIMENT A: F4/F5/F6 UNION
+==================================================
+1. F4: 6690 (10.64%) | Marg: 10.64% | Col: 782 | Cands: 3.8 med 4 max 4
+2. F4+F5: 12903 (20.52%) | Marg: 9.88% | Col: 14009 | Cands: 24.7 med 23 max 63
+3. F4+F5+F6: 17251 (27.43%) | Marg: 6.91% | Col: 14026 | Cands: 24.7 med 23 max 63
+
+==================================================
+EXPERIMENT B: WEIGHTED RETRIEVAL
+==================================================
+
+Method: Baseline (Standard Levenshtein)
+R@1: 1.09% | R@3: 7.36% | R@5: 11.17% | R@10: 13.08% | R@20: 17.44%
+Total time: 17.64s (0.1764s per query)
+
+Method: Weighted Transliteration Distance
+R@1: 1.09% | R@3: 11.17% | R@5: 51.50% | R@10: 53.41% | R@20: 55.59%
+Total time: 46.83s (0.4683s per query)
+
+Failure Analysis (Weighted Top 20 miss):
+Miss: pls -> please (118). Top retrieved: pls(0.0), plas(0.2), plss(0.2), plsss(0.4), plssss(0.6)
+Miss: nhi -> na (2). Top retrieved: nhi(0.0), nhii(0.2), nhe(0.2), nnhi(0.2), nhy(0.2)
+Miss: ਮਸ਼ਰ -> mein (1). Top retrieved: ਮਸ਼ਰ(0.0), शकत(3.0), अबन(3.0), ple(3.0), ohh(3.0)
+Miss: bit -> bitcoin (1). Top retrieved: bit(0.0), bet(0.2), bita(0.2), baita(0.4), beet(0.4)
+Miss: k -> sakuntala (1). Top retrieved: k(0.0), ak(0.2), kk(0.2), ka(0.2), aak(0.4)
+Miss: liye -> is (1). Top retrieved: liye(0.0), liiye(0.2), leye(0.2), liyee(0.2), liya(0.2)
+Miss: bataen -> batayein (1). Top retrieved: bataen(0.0), baten(0.2), btaen(0.2), batain(0.2), baaten(0.4)
+Miss: batayein -> bataye (1). Top retrieved: batayein(0.0), batayain(0.2), bateyein(0.2), bitayein(1.0), banayein(1.0)
+Miss: ahnkar -> apna (1). Top retrieved: ahnkar(0.0), ahankar(0.2), eahnkar(0.4), aahankaar(0.6), shankar(1.2)
+Miss: kya -> baaton (1). Top retrieved: kya(0.0), kye(0.2), kyaa(0.2), kaya(0.2), ky(0.2)
+Miss: laga -> rakha (1). Top retrieved: laga(0.0), alaga(0.2), lag(0.2), lagaa(0.2), lage(0.2)
+Miss: tricks -> and (1). Top retrieved: tricks(0.0), bricks(1.0), trick(1.0), trips(2.0), truck(2.0)
+Miss: is -> isme (1). Top retrieved: is(0.0), iis(0.2), isa(0.2), ias(0.2), iss(0.2)
+Miss: hu -> koi (1). Top retrieved: hu(0.0), ho(0.2), huu(0.2), hua(0.2), hau(0.2)
+Miss: by -> impressed (1). Top retrieved: by(0.0), bi(0.2), bay(0.2), aby(0.2), bai(0.4)

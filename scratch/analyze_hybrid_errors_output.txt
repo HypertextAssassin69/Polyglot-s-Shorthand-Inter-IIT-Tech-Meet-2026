@@ -1,0 +1,211 @@
+Total Errors found in predictions: 3825
+
+[1] Error Type: Ranker Failure
+Sentence: Bharat Mata ki Jai. Desh ko bahut accha PM Modi Ji mile hai. Viswa me bhi Bharat ka danka baja rahe hai. Desh ke logo ke dilo me hai Modi Ji. Jai Shree Ram
+Noisy: viswa
+Gold : vishwa
+Pred : viswas
+Cands: ['visa', 'biswa', 'viswas', 'visva', 'vishwa', 'viswa']
+
+[2] Error Type: Retriever Failure
+Sentence: Samay se is bat ko Janna samjhna bhot jaruri hai yuva pidhi k liye, Aantrik khushi se jivan yapan k liye..
+Noisy: yapan
+Gold : bitane
+Pred : yaman
+Cands: ['yaman', 'japan', 'pan', 'yahaan', 'yahan', 'yapan']
+
+[3] Error Type: Retriever Failure
+Sentence: Sir hum sham ko potato fry karke rakh sakte hai kya subah tiffin banane ke liye????
+Noisy: hai
+Gold : hain
+Pred : he
+Cands: ['haai', 'hae', 'hai', 'he', 'hay', 'hei', 'haii']
+
+[4] Error Type: Ranker Failure
+Sentence: Wah modi ji khud Bengal ma lakho ki biher jama karta Ho. Or logoo ko katha Ho mask phano or social destening Karo. Wah modi ji
+Noisy: destening
+Gold : distancing
+Pred : descending
+Cands: ['designing', 'distancing', 'detailing', 'destiny', 'descending']
+
+[5] Error Type: Retriever Failure
+Sentence: Very Informative video. Next time EMA line please Thick kar dena, visible nahi hain.
+Noisy: hain
+Gold : hai
+Pred : haina
+Cands: ['hin', 'heen', 'hain', 'haina', 'hen', 'hein']
+
+[6] Error Type: Retriever Failure
+Sentence: 1 baar fry karke 1month tak store bhi kar sakte hai ??
+Noisy: tak
+Gold : month
+Pred : taak
+Cands: ['tak', 'tkk', 'atak', 'tk', 'taak', 'taka']
+
+[7] Error Type: Retriever Failure
+Sentence: Man lijiye agar aap Desh ke pradhanmantri hote to aap pahla kam kya kerte sabhi apni apni Rai de main to Bhai jansankhya niyantran aur Shiksha free mahilaon ke liye aur apni Rai bataen
+Noisy: liye
+Gold : shiksha
+Pred : liye
+Cands: ['liya', 'laiye', 'liye', 'liyee', 'liiye', 'leye']
+
+[8] Error Type: Retriever Failure
+Sentence: Apne bahut hi badhiya karo Jo truck driver se Paisa liya tha Police wale ne to aapane on camera dikhaya aap ki khabar mein bahut achcha lagta
+Noisy: tha
+Gold : liya
+Pred : the
+Cands: ['th', 'the', 'tha', 'thaa', 'tahe', 'thha']
+
+[9] Error Type: Retriever Failure
+Sentence: Sir agar ma 100rs ki investment karu after that muje kab sell karna chaye.
+Noisy: chaye
+Gold : chahiye
+Pred : chhaaye
+Cands: ['chhaaye', 'chie', 'chaia', 'chaya', 'chaye', 'chhaya']
+
+[10] Error Type: Retriever Failure
+Sentence: Aapke hesab se b thik hai ye arth lekin dada(baba) dusyant or dadi (amaa) sakuntala k putr (beta) bhrat k nam pe es Aryavart ka nam bharat pada
+Noisy: beta
+Gold : putr
+Pred : bete
+Cands: ['bet', 'bita', 'bete', 'bata', 'bataa', 'beta', 'baita']
+
+[11] Error Type: Retriever Failure
+Sentence: Superb video sir me aap ka total videos dekhta hu total videos superb hai sir
+Noisy: hu
+Gold : hun
+Pred : hoo
+Cands: ['huu', 'hoo', 'ho', 'hua', 'huuu', 'hu', 'hau']
+
+[12] Error Type: Retriever Failure
+Sentence: Domino&#39;s pizza or burger king ka burger bhi sikhana bhai
+Noisy: domino39s
+Gold : dominos
+Pred : domains
+Cands: ['domains', 'don39t', 'dom39s', 'momo39s', 'women39s']
+
+[13] Error Type: Retriever Failure
+Sentence: Sir mujhe apke read karane ka tarika bahut achcha laga thanks sir
+Noisy: achcha
+Gold : accha
+Pred : achchhe
+Cands: ['achacha', 'chacha', 'achcha', 'achchhe', 'achchha', 'achche']
+
+[14] Error Type: Retriever Failure
+Sentence: Hamare Desh ke pradhan mantri manniye shiree narendar modi jindabad BJP sarkar jindabad Shiree Ram dash ki jay ho
+Noisy: shiree
+Gold : shri
+Pred : sheare
+Cands: ['shere', 'shiree', 'shrree', 'sheare', 'sheree', 'shiri']
+
+[15] Error Type: Ranker Failure
+Sentence: Yeh atyachar hai, Modi ji. Hum kya samjhen? Na ghar mila, na paisa, kuchh bhi nahi mila.
+Noisy: atyachar
+Gold : atyachaar
+Pred : techar
+Cands: ['teacher', 'aatyachar', 'bichar', 'atyachar', 'techar', 'atyachaar']
+
+[16] Error Type: Retriever Failure
+Sentence: Sir,,आज networking marketing, सिखाने वाले बहुत सारे businessman हैं तो में कैसे मान लू की आप सबसे बेस्ट तरीके से सिखायेंगे,,,
+Noisy: marketing
+Gold : networking
+Pred : marketing
+Cands: ['meeting', 'marketing', 'creating', 'marketting', 'rating', 'markiting']
+
+[17] Error Type: Retriever Failure
+Sentence: sir isilie mujhe aapke video bahut achhe lgte h... aap bahi sahi information dete ho
+Noisy: h
+Gold : hain
+Pred : hai
+Cands: ['hh', 'aha', 'h', 'ah', 'hai', 'ha', 'haa']
+
+[18] Error Type: Retriever Failure
+Sentence: Modiji is LIFE in reality ! Modiji Hai Toh Sab Mumkin Hai "Praan Jaye, Par, Deshko Diyaa Hua Vachan Na Jaye" ! A Noble DeshBhakt ! Good Thoughts Good Words Good Deeds
+Noisy: diyaa
+Gold : desh
+Pred : diye
+Cands: ['deya', 'diyea', 'diyaa', 'deye', 'diye', 'diya']
+
+[19] Error Type: Retriever Failure
+Sentence: Modiji is LIFE in reality ! Modiji Hai Toh Sab Mumkin Hai "Praan Jaye, Par, Deshko Diyaa Hua Vachan Na Jaye" ! A Noble DeshBhakt ! Good Thoughts Good Words Good Deeds
+Noisy: toh
+Gold : hai
+Pred : tooh
+Cands: ['voh', 'toh', 'tooh', 'toe', 'teh', 'hoh']
+
+[20] Error Type: Retriever Failure
+Sentence: Sir, Finity apps me paise invest karna sahi hoga kya? Kya Finity apps par vishwas kiya ja sakta hai?
+Noisy: me
+Gold : mein
+Pred : mai
+Cands: ['ma', 'me', 'mei', 'mai', 'mea', 'mee', 'mae', 'mi']
+
+[21] Error Type: Retriever Failure
+Sentence: I tried this recipe... Vada ka taste toh nhi aaya par ha taste sahi tha
+Noisy: ha
+Gold : uska
+Pred : h
+Cands: ['aha', 'h', 'he', 'hee', 'ha', 'haa']
+
+[22] Error Type: Ranker Failure
+Sentence: Sir aapka ye kahena hai ki zomato me Karna hai to long investment Karo short me kam profit hogq
+Noisy: hogq
+Gold : hoga
+Pred : hogq
+Cands: ['hog', 'hoga', 'hogq', 'hogi', 'hogo', 'hoge']
+
+[23] Error Type: Retriever Failure
+Sentence: Ye hai humare Bharat ki sanskriti, aur ye hai humara Bharat mahan, aaj ka viksit Bharat desh.
+Noisy: ye
+Gold : yeh
+Pred : yai
+Cands: ['yai', 'ya', 'aye', 'yi', 'yee', 'ye', 'yae']
+
+[24] Error Type: Retriever Failure
+Sentence: Ye Nitin Murarka Sir kitni jldi jldi palak jhpkate hai
+Noisy: hai
+Gold : hain
+Pred : he
+Cands: ['haai', 'hae', 'hai', 'he', 'hay', 'hei', 'haii']
+
+[25] Error Type: Retriever Failure
+Sentence: Burocratic system fail hai. IAS ya PCS ki jagaha IIM se MBA holder higher karna chaiye sarkaar ko
+Noisy: chaiye
+Gold : chahiye
+Pred : chaiye
+Cands: ['chiyea', 'chiya', 'chaiyee', 'chiye', 'chaiye', 'chaiya']
+
+[26] Error Type: Retriever Failure
+Sentence: Lgta h sb ne MBA chaiwale ki bat ko seriously le lia h " agr kuch smjh me nhi aa rha ho to jo successful log kr reh wohe krne lg jao
+Noisy: log
+Gold : kar
+Pred : lon
+Cands: ['logg', 'luga', 'log', 'loo', 'lon', 'loog']
+
+[27] Error Type: Ranker Failure
+Sentence: Sir bissness mein kya future hai Corona virus ke bad Or kitna time lagega normal bissness normal hone me
+Noisy: bissness
+Gold : business
+Pred : bisvas
+Cands: ['bissness', 'biswas', 'bisvas', 'business', 'bussiness', 'bussness']
+
+[28] Error Type: Retriever Failure
+Sentence: Thanks guru turning leni he aapki sab sikhna he Pura khud ko develope karuga ye aapka cors learn karuga or khudh ko cenje karuga
+Noisy: karuga
+Gold : karunga
+Pred : karoge
+Cands: ['kruga', 'karuna', 'karuga', 'karoge', 'karoga', 'kroge']
+
+[29] Error Type: Retriever Failure
+Sentence: Vasudev kutumbakam ki vichardhara ki vajah se ham kis per hamla nahin karte
+Noisy: ham
+Gold : hum
+Pred : aham
+Cands: ['haam', 'ham', 'hm', 'hmm', 'aham', 'hma']
+
+[30] Error Type: Retriever Failure
+Sentence: Thank you guru ji sir aap alg hi andaj me padhate hai
+Noisy: hai
+Gold : hain
+Pred : he
+Cands: ['haai', 'hae', 'hai', 'he', 'hay', 'hei', 'haii']

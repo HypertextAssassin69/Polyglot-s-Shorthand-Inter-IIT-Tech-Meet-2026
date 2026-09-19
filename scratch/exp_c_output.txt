@@ -1,0 +1,54 @@
+Loading data and creating splits...
+Train Vocab Size: 36478
+Total Test Queries: 6343
+Test Targets OOV: 175 (2.76%)
+Test Targets In-Vocab: 6168 (97.24%)
+
+Evaluating Baseline...
+
+--- Baseline (Standard Levenshtein) ---
+OVERALL RECALL:
+R@1: 6.56% | R@3: 15.78% | R@5: 24.80% | R@10: 35.86% | R@20: 49.18%
+IN-VOCAB RECALL:
+R@1: 6.75% | R@3: 16.24% | R@5: 25.53% | R@10: 36.92% | R@20: 50.63%
+Time: 42.83s (0.1428s per query)
+Evaluating Weighted...
+
+--- Weighted Transliteration Distance ---
+OVERALL RECALL:
+R@1: 14.14% | R@3: 30.33% | R@5: 40.57% | R@10: 50.82% | R@20: 63.93%
+IN-VOCAB RECALL:
+R@1: 14.56% | R@3: 31.22% | R@5: 41.77% | R@10: 52.32% | R@20: 65.82%
+Time: 112.96s (0.3765s per query)
+
+Failure Analysis (Weighted Top 5 miss):
+Miss: he -> hai . Top retrieved: hea(0.2), hae(0.2), ha(0.2), hee(0.2), hi(0.2)
+Miss: sir  -> sir . Top retrieved: sirr(1.0), sirf(1.0), sirl(1.0), siri(1.0), siru(1.0)
+Miss: kiya -> kya . Top retrieved: kiy(0.2), kiyaa(0.2), keya(0.2), kiye(0.2), kii(0.4)
+Miss: fir -> phir . Top retrieved: fair(0.2), fira(0.2), fer(0.2), feer(0.4), fear(0.4)
+Miss: hm -> hum . Top retrieved: ahm(0.2), ham(0.2), hmm(0.2), hamm(0.4), aham(0.4)
+Miss: hu  -> hoon . Top retrieved: hue(1.0), huy(1.0), huk(1.0), hui(1.0), hum(1.0)
+Miss: piche -> peeche . Top retrieved: peche(0.2), pichhe(0.2), pichi(0.2), picha(0.2), pichha(0.4)
+Miss: bohot -> bahot . Top retrieved: bohut(0.2), bohoot(0.2), bohottt(0.4), buhut(0.4), bohat(1.0)
+Miss: and -> aur . Top retrieved: aand(0.2), anda(0.2), end(0.2), nd(0.2), aanad(0.4)
+Miss: gai -> gayi . Top retrieved: agai(0.2), gaii(0.2), gi(0.2), gae(0.2), gay(0.2)
+Miss: bht -> bahut . Top retrieved: bhht(0.2), bhat(0.2), baht(0.2), bhtt(0.2), bahht(0.4)
+Miss: bhot -> bahut . Top retrieved: bhaot(0.2), bhoat(0.2), bhota(0.2), bahot(0.2), bhoot(0.2)
+Miss: sat -> shat . Top retrieved: saat(0.2), set(0.2), satt(0.2), st(0.2), sata(0.2)
+Miss: samj -> samajh . Top retrieved: samja(0.2), samaj(0.2), smj(0.2), semja(0.4), smja(0.4)
+Miss: huye -> hue . Top retrieved: huyi(0.2), huya(0.2), hoye(0.2), huyee(0.2), huii(0.4)
+Miss: pe -> par . Top retrieved: pee(0.2), pa(0.2), ape(0.2), pi(0.2), pai(0.4)
+Miss: ko -> ka . Top retrieved: koa(0.2), koo(0.2), ako(0.2), ku(0.2), kao(0.2)
+Miss: saalo -> saalon . Top retrieved: salo(0.2), saaalo(0.2), saloo(0.4), aslu(0.8), saali(1.0)
+Miss: hia -> hai . Top retrieved: hea(0.2), hie(0.2), hi(0.2), hya(0.2), hy(0.4)
+Miss: sayad -> shayad . Top retrieved: syad(0.2), sayd(0.2), saayad(0.2), sayed(0.2), said(0.4)
+Miss:  plz -> please . Top retrieved: plz(1.0), हplz(1.0), hplz(1.0), plzz(1.2), naplz(1.2)
+Miss: hu -> hain . Top retrieved: ho(0.2), huu(0.2), hau(0.2), hua(0.2), hoa(0.4)
+Miss: g -> ke . Top retrieved: ag(0.2), ga(0.2), aga(0.4), gaa(0.4), agaa(0.6)
+Miss: dege -> denge . Top retrieved: dega(0.2), degi(0.2), diga(0.4), digea(0.4), digia(0.6)
+Miss: bi -> bhi . Top retrieved: abi(0.2), bai(0.2), by(0.2), be(0.2), bbi(0.2)
+Miss: monhfali -> moonfali [OOV]. Top retrieved: mungfali(1.2), muufali(2.2), monthly(2.4), mohalle(2.4), mohala(3.0)
+Miss: kar -> ke . Top retrieved: karr(0.2), kara(0.2), kr(0.2), akar(0.2), ker(0.2)
+Miss: kia -> hai . Top retrieved: kea(0.2), ki(0.2), kya(0.2), kiaa(0.2), kie(0.2)
+Miss:   -> hai . Top retrieved: क़(1.0), २(1.0), v(1.0), न(1.0), b(1.0)
+Miss: kyo -> kyon . Top retrieved: kyu(0.2), kio(0.2), kiu(0.4), kyuu(0.4), kyuuu(0.6)

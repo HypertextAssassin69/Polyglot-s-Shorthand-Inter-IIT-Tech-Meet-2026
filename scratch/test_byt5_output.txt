@@ -1,0 +1,10 @@
+Loading ByT5-small...
+Loaded in 265.40 seconds.
+Model parameters: 299637760
+Input: normalize: the dog <n> borked </n> loudly
+Encoded shape: torch.Size([1, 42])
+Decoded: normalize: the dog <n> borked </n> loudly</s>
+Testing forward pass...
+Loss: 9.75147533416748
+Testing generation pass...
+Generated text:  <n> borked </n> lo

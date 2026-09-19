@@ -1,0 +1,245 @@
+Total Ranker Failures in Hybrid V1: 637
+Fixed by MLP: 187
+New Ranker Failures in MLP: 193
+Net change in Ranker Failures: 6
+
+[1] Sentence: Jaha 4 month sai intezar ho raha hai aur govt soo rahi hai
+Noisy: sai  |  Gold: se
+Cands: ['sey', 'sai', 'see', 'asi', 'se', 'say', 'si']
+Hybrid V1 (Dot Product) Pred: asi (Wrong)
+MLP Pred: se (FIXED!)
+  Gold candidate -> Dot Score: 2.7698, MLP Score: 9.8457
+  Pred candidate -> Dot Score: 2.7698, MLP Score: 9.8457
+--------------------------------------------------
+[2] Sentence: Mene bhi kabhi ye sab nai sochaa thaa ki insaan ki jaatiyaan bhi hoti hai per is samaaj me ye agyaanta aaj bhi bhari pdi hai
+Noisy: sochaa  |  Gold: socha
+Cands: ['such', 'sochha', 'soche', 'sochaa', 'soch', 'socha']
+Hybrid V1 (Dot Product) Pred: sochha (Wrong)
+MLP Pred: sochha (Still Wrong)
+  Gold candidate -> Dot Score: -2.4059, MLP Score: 7.2286
+  Pred candidate -> Dot Score: -1.2011, MLP Score: 7.2720
+--------------------------------------------------
+[3] Sentence: Jay Shri Ram Yugpurush aapko koti koti naman desh aapke majbut haath mein hai aapka bahut bahut dhanyavaad happy karmyogi
+Noisy: karmyogi  |  Gold: karmayogi
+Cands: ['karuingi', 'karmyogi', 'karmyog', 'karoogi', 'karmayogi', 'karogi']
+Hybrid V1 (Dot Product) Pred: karmyog (Wrong)
+MLP Pred: karuingi (Still Wrong)
+  Gold candidate -> Dot Score: -1.4769, MLP Score: 10.6721
+  Pred candidate -> Dot Score: 1.3893, MLP Score: 11.9719
+--------------------------------------------------
+[4] Sentence: Shbd me kitna laslsahat,, chipke to chhootne ka mn hi nahi kerta.....
+Noisy: shbd  |  Gold: shabd
+Cands: ['shabd', 'shabad', 'shb', 'shbd', 'sabd', 'shyd']
+Hybrid V1 (Dot Product) Pred: sabd (Wrong)
+MLP Pred: shabd (FIXED!)
+  Gold candidate -> Dot Score: 5.7311, MLP Score: 12.7084
+  Pred candidate -> Dot Score: 5.7311, MLP Score: 12.7084
+--------------------------------------------------
+[5] Sentence: Sir ji jaise unacdmy ko barbaad kiye hai waise hi an study IQ ko nhi karenge kya Bahut khub
+Noisy: unacdmy  |  Gold: unacademy
+Cands: ['unacdmy', 'unchai', 'anandmayi', 'unchi', 'oonchai', 'unacademy']
+Hybrid V1 (Dot Product) Pred: anandmayi (Wrong)
+MLP Pred: unacademy (FIXED!)
+  Gold candidate -> Dot Score: -0.1240, MLP Score: 12.7652
+  Pred candidate -> Dot Score: -0.1240, MLP Score: 12.7652
+--------------------------------------------------
+[6] Sentence: Sir is course ko karne ke baad kitne din Mai 100000 per month thak pahuch jynge aur iske Kya guarantee hai sir reply me
+Noisy: jynge  |  Gold: jayenge
+Cands: ['jyega', 'jayenge', 'jaenge', 'jainge', 'jynge', 'jaynge']
+Hybrid V1 (Dot Product) Pred: jainge (Wrong)
+MLP Pred: jayenge (FIXED!)
+  Gold candidate -> Dot Score: -2.8834, MLP Score: 7.6604
+  Pred candidate -> Dot Score: -2.8834, MLP Score: 7.6604
+--------------------------------------------------
+[7] Sentence: Bhaiya bohat ache se samjhaaye ho.... Encouraging tareeke se... Thnkew
+Noisy: ache  |  Gold: acche
+Cands: ['acche', 'achee', 'acha', 'achae', 'ache', 'aache', 'achhe']
+Hybrid V1 (Dot Product) Pred: achhe (Wrong)
+MLP Pred: achhe (Still Wrong)
+  Gold candidate -> Dot Score: 1.8118, MLP Score: 11.9268
+  Pred candidate -> Dot Score: 2.6437, MLP Score: 12.2616
+--------------------------------------------------
+[8] Sentence: Thankyou veryyy muchh ishaan bhaiya you are great i like your information and i understand very much your all information
+Noisy: veryyy  |  Gold: very
+Cands: ['veri', 'veryyy', 'verify', 'vari', 'very', 'bery']
+Hybrid V1 (Dot Product) Pred: verify (Wrong)
+MLP Pred: very (FIXED!)
+  Gold candidate -> Dot Score: 0.2431, MLP Score: 12.4178
+  Pred candidate -> Dot Score: 0.2431, MLP Score: 12.4178
+--------------------------------------------------
+[9] Sentence: Besan burfi ke jagah pe... Usi batter se besan lddu bna sakte hain kya Plz reply
+Noisy: lddu  |  Gold: laddu
+Cands: ['ladu', 'laddo', 'lado', 'laddoo', 'laddu']
+Hybrid V1 (Dot Product) Pred: laddoo (Wrong)
+MLP Pred: laddoo (Still Wrong)
+  Gold candidate -> Dot Score: 1.5771, MLP Score: 8.3208
+  Pred candidate -> Dot Score: -0.1844, MLP Score: 9.2850
+--------------------------------------------------
+[10] Sentence: He changed my fate. I was homeless & helpless. Today I’m a drone pilot bcz of his government. Jab tak jinda hu bjp ko vote dunga
+Noisy: dunga  |  Gold: doonga
+Cands: ['dunya', 'dunia', 'duga', 'lunga', 'doonga', 'dunga']
+Hybrid V1 (Dot Product) Pred: duga (Wrong)
+MLP Pred: doonga (FIXED!)
+  Gold candidate -> Dot Score: 1.5933, MLP Score: 3.2633
+  Pred candidate -> Dot Score: 1.5933, MLP Score: 3.2633
+--------------------------------------------------
+[11] Sentence: "Your device is not compatible with this version from ply store. I hope its support only pixel.. mera samsung k phone hai..
+Noisy: support  |  Gold: supports
+Cands: ['sport', 'soorat', 'saport', 'supports', 'supporter', 'support']
+Hybrid V1 (Dot Product) Pred: support (Wrong)
+MLP Pred: soorat (Still Wrong)
+  Gold candidate -> Dot Score: 4.0438, MLP Score: 12.3345
+  Pred candidate -> Dot Score: 5.0115, MLP Score: 12.3641
+--------------------------------------------------
+[12] Sentence: A cunning and selfish politician paying tribute to his opposite. Modiji, aap rehne do. Kyun apni zubaan se itne mahaan vyakti ka naam lete ho? Aapki bhasha maine aapke kai bhaashano mein sun rakhi hai.
+Noisy: mahaan  |  Gold: mahan
+Cands: ['maheen', 'mahaan', 'kahaan', 'mhan', 'yahaan', 'mahan']
+Hybrid V1 (Dot Product) Pred: kahaan (Wrong)
+MLP Pred: yahaan (Still Wrong)
+  Gold candidate -> Dot Score: 3.4599, MLP Score: 6.6167
+  Pred candidate -> Dot Score: -0.2170, MLP Score: 9.2448
+--------------------------------------------------
+[13] Sentence: Jitna nuksan prakriti Ko pahunchaya hai insanon ne UN sab Ka badla prakriti lekar rehagi insanon se
+Noisy: rehagi  |  Gold: rahegi
+Cands: ['rehega', 'rehati', 'rehagi', 'rahegi', 'rehane', 'rahege']
+Hybrid V1 (Dot Product) Pred: rehane (Wrong)
+MLP Pred: rahegi (FIXED!)
+  Gold candidate -> Dot Score: 4.1360, MLP Score: 4.4524
+  Pred candidate -> Dot Score: 4.1360, MLP Score: 4.4524
+--------------------------------------------------
+[14] Sentence: Aapna desh ko hifajat karna wala kaaara nhi ho sakta
+Noisy: aapna  |  Gold: apna
+Cands: ['aapane', 'aapn', 'apna', 'aapna', 'aapnee', 'aapne']
+Hybrid V1 (Dot Product) Pred: aapne (Wrong)
+MLP Pred: aapne (Still Wrong)
+  Gold candidate -> Dot Score: 0.3386, MLP Score: 8.4499
+  Pred candidate -> Dot Score: 0.4127, MLP Score: 11.7086
+--------------------------------------------------
+[15] Sentence: Kya crypto coin humhe sell krni chahye ya hold pe rakhni chahye?
+Noisy: rakhni  |  Gold: rakhna
+Cands: ['rakhni', 'rakhne', 'rakhna', 'rakhti', 'rakhi', 'rakhane']
+Hybrid V1 (Dot Product) Pred: rakhne (Wrong)
+MLP Pred: rakhna (FIXED!)
+  Gold candidate -> Dot Score: 2.9832, MLP Score: 10.3047
+  Pred candidate -> Dot Score: 2.9832, MLP Score: 10.3047
+--------------------------------------------------
+[16] Sentence: Wo sab aaise hi nahi bane unke sath bahut kharab hua h
+Noisy: aaise  |  Gold: aise
+Cands: ['aisa', 'aaisi', 'aaise', 'eaise', 'aise', 'aaisa']
+Hybrid V1 (Dot Product) Pred: aaise (Wrong)
+MLP Pred: aisa (Still Wrong)
+  Gold candidate -> Dot Score: 0.7777, MLP Score: 3.8516
+  Pred candidate -> Dot Score: -4.3390, MLP Score: 4.4519
+--------------------------------------------------
+[17] Sentence: Whatsapp me video coll krna sahi hai ki nhi sir isme video plz
+Noisy: isme  |  Gold: esme
+Cands: ['esmi', 'ismai', 'esme', 'esame', 'isma', 'isme']
+Hybrid V1 (Dot Product) Pred: esmi (Wrong)
+MLP Pred: esme (FIXED!)
+  Gold candidate -> Dot Score: 0.5726, MLP Score: -0.2326
+  Pred candidate -> Dot Score: 0.5726, MLP Score: -0.2326
+--------------------------------------------------
+[18] Sentence: Bhagwan is bacche ko thik karein, yahi kamana karte hain. Pallvi ji, aapka dhanyawad; aapka prayas zaroor safal hoga.
+Noisy: pallvi  |  Gold: pallavi
+Cands: ['pallvi', 'palvi', 'pallavi', 'palavvi', 'pllavi', 'palavi']
+Hybrid V1 (Dot Product) Pred: palavvi (Wrong)
+MLP Pred: palvi (Still Wrong)
+  Gold candidate -> Dot Score: 7.0374, MLP Score: 10.4590
+  Pred candidate -> Dot Score: 4.2396, MLP Score: 10.7465
+--------------------------------------------------
+[19] Sentence: Sir aap bhut mehnati ho nd aapki har recipe perfect hoti hai 100% dete ho aap apne recipe k pichhe
+Noisy: pichhe  |  Gold: piche
+Cands: ['peche', 'peechhe', 'picha', 'pichhe', 'peeche', 'piche']
+Hybrid V1 (Dot Product) Pred: peeche (Wrong)
+MLP Pred: peeche (Still Wrong)
+  Gold candidate -> Dot Score: -2.5979, MLP Score: 3.7600
+  Pred candidate -> Dot Score: -2.1431, MLP Score: 5.4268
+--------------------------------------------------
+[20] Sentence: Har Har Mahadev, Jai Krishan, Jai Shri Ram, Jai Jai Ram ji ki jai ho.
+Noisy: krishan  |  Gold: krishna
+Cands: ['preshan', 'krishna', 'krish', 'krishan', 'krishn', 'kishan']
+Hybrid V1 (Dot Product) Pred: preshan (Wrong)
+MLP Pred: krishna (FIXED!)
+  Gold candidate -> Dot Score: 8.5772, MLP Score: 9.0156
+  Pred candidate -> Dot Score: 8.5772, MLP Score: 9.0156
+--------------------------------------------------
+[21] Sentence: Modi ka dikhava Ambedkar virodhi chehra raili mein Jay Bheem ke nare nahin Lage isase vyakt hota hai Ambedkar jayanti per sirf Ambedkar ke nare hone chahie Jay Bheem
+Noisy: isase  |  Gold: isse
+Cands: ['issi', 'esse', 'isase', 'isse', 'esase', 'issa']
+Hybrid V1 (Dot Product) Pred: esse (Wrong)
+MLP Pred: esse (Still Wrong)
+  Gold candidate -> Dot Score: -0.8062, MLP Score: 6.6078
+  Pred candidate -> Dot Score: -2.2996, MLP Score: 6.8752
+--------------------------------------------------
+[22] Sentence: Thank you sir But us person ka Kiya kare jo hamre liye special hai Lekin vo Hamri velue na kare
+Noisy: hamri  |  Gold: hamari
+Cands: ['hamre', 'hamri', 'hamare', 'hamaari', 'hamari', 'hmre']
+Hybrid V1 (Dot Product) Pred: hamare (Wrong)
+MLP Pred: hamari (FIXED!)
+  Gold candidate -> Dot Score: 9.1464, MLP Score: 8.8413
+  Pred candidate -> Dot Score: 9.1464, MLP Score: 8.8413
+--------------------------------------------------
+[23] Sentence: Sir y to fundamental rights ka to pura ulanghan ho rha hai
+Noisy: ulanghan  |  Gold: ulangan
+Cands: ['ulangan', 'ulanghan', 'bangan', 'unhen', 'ulghn', 'lagha']
+Hybrid V1 (Dot Product) Pred: ulanghan (Wrong)
+MLP Pred: ulanghan (Still Wrong)
+  Gold candidate -> Dot Score: -2.6665, MLP Score: 11.2229
+  Pred candidate -> Dot Score: 0.3252, MLP Score: 12.1254
+--------------------------------------------------
+[24] Sentence: Brillant bro Aap ne bhut kmaal ka smjhaya hai Mujhe live trading per jo aap ne sikhaya wo amazing lga
+Noisy: brillant  |  Gold: brilliant
+Cands: ['bright', 'badilat', 'print', 'brilliant', 'breast']
+Hybrid V1 (Dot Product) Pred: bright (Wrong)
+MLP Pred: brilliant (FIXED!)
+  Gold candidate -> Dot Score: -2.5707, MLP Score: 14.6803
+  Pred candidate -> Dot Score: -2.5707, MLP Score: 14.6803
+--------------------------------------------------
+[25] Sentence: Shakle kitni bhi khoobsurat hi hamesha naseebo ki mohtaaj hoti hain.
+Noisy: naseebo  |  Gold: naseeb
+Cands: ['garebo', 'gareebo', 'nasedi', 'naseeb', 'nibu', 'naseebo']
+Hybrid V1 (Dot Product) Pred: nasedi (Wrong)
+MLP Pred: nasedi (Still Wrong)
+  Gold candidate -> Dot Score: -1.3113, MLP Score: 8.0159
+  Pred candidate -> Dot Score: 0.1542, MLP Score: 8.8111
+--------------------------------------------------
+[26] Sentence: Jab tamater ka bhaw badhte hai uske sath pyaz bhi badhta hai... To bina payaz ke bhi recipe batai
+Noisy: badhte  |  Gold: badhta
+Cands: ['badhti', 'badhe', 'badhte', 'badhati', 'badhta', 'badhate']
+Hybrid V1 (Dot Product) Pred: badhate (Wrong)
+MLP Pred: badhati (Still Wrong)
+  Gold candidate -> Dot Score: -0.3137, MLP Score: 7.5971
+  Pred candidate -> Dot Score: -1.4001, MLP Score: 9.3191
+--------------------------------------------------
+[27] Sentence: Berojgaari apne charam seema par hai aur yaha gyaan pela ja raha hai ki desh sabse pehle hai, Wah modi ji...
+Noisy: apne  |  Gold: apni
+Cands: ['apnai', 'apne', 'appne', 'apna', 'aapne', 'apni', 'apane']
+Hybrid V1 (Dot Product) Pred: aapne (Wrong)
+MLP Pred: aapne (Still Wrong)
+  Gold candidate -> Dot Score: 0.4750, MLP Score: 9.2216
+  Pred candidate -> Dot Score: 1.6780, MLP Score: 11.1768
+--------------------------------------------------
+[28] Sentence: Pradhanmantri Narendra Modi ji h to mumkin hai sab bjp NDA sarkar jindabad congress Vipaksh htao hrao desh bachao
+Noisy: jindabad  |  Gold: zindabad
+Cands: ['jindabaad', 'zindabaad', 'gindabaad', 'jindagi', 'zindabad', 'jindabad']
+Hybrid V1 (Dot Product) Pred: zindabaad (Wrong)
+MLP Pred: zindabad (FIXED!)
+  Gold candidate -> Dot Score: -4.6678, MLP Score: 9.0898
+  Pred candidate -> Dot Score: -4.6678, MLP Score: 9.0898
+--------------------------------------------------
+[29] Sentence: Aur aaj rss bhi desh me yhi karta hai hitlar ki copy hai
+Noisy: hitlar  |  Gold: hitler
+Cands: ['hitler', 'chillar', 'hitlet', 'littar', 'phitlr']
+Hybrid V1 (Dot Product) Pred: chillar (Wrong)
+MLP Pred: littar (Still Wrong)
+  Gold candidate -> Dot Score: 1.4493, MLP Score: 13.3453
+  Pred candidate -> Dot Score: -0.4741, MLP Score: 15.1402
+--------------------------------------------------
+[30] Sentence: Bhagwan modi jee World leader hai Usa uk EU Russia FRANCE chaina Gulf sabse bade paropkari seva ke prteek hai
+Noisy: prteek  |  Gold: prateek
+Cands: ['prteek', 'pratyek', 'parte', 'prateek', 'pratik', 'prate']
+Hybrid V1 (Dot Product) Pred: parte (Wrong)
+MLP Pred: parte (Still Wrong)
+  Gold candidate -> Dot Score: -0.2154, MLP Score: 6.6248
+  Pred candidate -> Dot Score: 4.0695, MLP Score: 8.3503
+--------------------------------------------------

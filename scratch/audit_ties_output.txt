@@ -1,0 +1,41 @@
+Top-5 Distance Ties Check:
+Query: shiva  -> Gold: shiva | Top 5 dists: [1.0, 1.0, 1.0, 1.0, 1.2]
+  Ties for Rank 1 distance (1.0): 4 candidates
+Query: me -> Gold: mein | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: chle -> Gold: chale | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.4]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: karate -> Gold: karte | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: bety -> Gold: beti | Top 5 dists: [0.0, 0.2, 0.2, 0.4, 0.4]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: induction -> Gold: we | Top 5 dists: [0.0, 1.4, 2.0, 2.0, 2.0]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: plz -> Gold: please | Top 5 dists: [0.0, 0.2, 0.2, 0.4, 0.6000000000000001]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: sja -> Gold: saja | Top 5 dists: [0.0, 0.2, 1.0, 1.0, 1.0]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: gayaa -> Gold: gaya | Top 5 dists: [0.0, 0.2, 0.2, 0.4, 0.4]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: tariqa -> Gold: hume | Top 5 dists: [0.0, 0.2, 0.2, 0.4, 1.0]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: baat -> Gold: baant | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: hm -> Gold: hum | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: achi -> Gold: acchi | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: करए -> Gold: लजए | Top 5 dists: [0.0, 1.0, 1.0, 1.0, 1.0]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: mumba -> Gold: mumbai | Top 5 dists: [0.0, 1.0, 1.0, 1.0, 1.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: qki -> Gold: kyoki | Top 5 dists: [0.0, 1.0, 1.0, 1.0, 1.0]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: hoga  -> Gold: hoga | Top 5 dists: [1.0, 1.0, 1.0, 1.0, 1.2]
+  Ties for Rank 1 distance (1.0): 4 candidates
+Query: hm -> Gold: hum | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.2]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: konsa -> Gold: kaunsa | Top 5 dists: [0.0, 0.2, 0.2, 0.4, 0.6000000000000001]
+  Ties for Rank 1 distance (0.0): 1 candidates
+Query: in -> Gold: en | Top 5 dists: [0.0, 0.2, 0.2, 0.2, 0.4]
+  Ties for Rank 1 distance (0.0): 1 candidates
