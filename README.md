@@ -4,11 +4,11 @@
 
 ## 🚧 Project Status
 
-**Active Research / Development**
+**Current Status: Experimental evaluation complete.**
 
 This project is being developed for the **Inter-IIT Tech Meet 2026**.
 
-The current focus is on understanding and solving the linguistic representation problem in noisy Romanized Hindi before committing to a final model architecture.
+The repository contains the implemented retrieval-based normalization experiments, ByT5 generative normalization experiment, latency benchmarks, and error analysis used in the final presentation.
 
 The guiding principle is:
 
@@ -767,6 +767,9 @@ To reproduce the experimental results (accuracy, latency, and error profiles) de
    pip install -r requirements.txt
    ```
 
+   **Note on Data and Checkpoints:**
+   The raw evaluation datasets (`data/raw/comi_lingua/...`) and trained model checkpoints (`scratch/byt5_best_model.pt`) are excluded from this repository due to size constraints. To reproduce the exact numbers, place the benchmark test sets in `data/raw/comi_lingua/` and run the data preparation scripts in `scripts/`, followed by `scripts/train_byt5_normalizer.py` to generate the checkpoint.
+
 2. **Run Latency Benchmarks:**
    Evaluate the inference speeds of the ByT5, MLP, and Cross-Encoder modules.
    ```bash
@@ -780,13 +783,13 @@ To reproduce the experimental results (accuracy, latency, and error profiles) de
    ```
 
 4. **Evaluate Generative Normalizer (ByT5):**
-   Run the evaluation script to measure Word Error Rate (WER) and phonetic accuracy of the generative normalization pipeline.
+   Run the evaluation script to measure exact-match normalization accuracy, noisy-word correction, clean-word preservation, retrieval-covered/missed performance, and inference latency.
    ```bash
    python scripts/evaluate_byt5_normalizer.py
    ```
 
 5. **Run Error Analysis:**
-   Perform detailed, phonetically-aware error categorization on model outputs.
+   Sample model errors for manual linguistic categorization.
    ```bash
    python scripts/error_analysis.py
    ```

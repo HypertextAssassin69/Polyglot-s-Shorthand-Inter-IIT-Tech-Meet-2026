@@ -5,6 +5,7 @@ numpy
 pandas
 scikit-learn
 torch
+numba
 
 # Tokenization / NLP
 tokenizers
